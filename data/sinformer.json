@@ -1,0 +1,1144 @@
+{
+  "version": "1.2",
+  "game": {
+    "title": "HGGSP Spécialité - S'informer, un regard critique",
+    "theme": "S'informer : un regard critique sur les sources et usages de l'information (Terminale)",
+    "currency": "points",
+    "questions": [
+      {
+        "id": "info_q1",
+        "text": "Quel terme désigne un contenu délibérément fabriqué et partagé pour tromper, désinformer ou manipuler l'opinion publique ?",
+        "answers": ["Le fact-checking", "La fake news", "Le citizen journalism", "L'éditorial"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'expression 'fake news' (information fabriquée) désigne des contenus délibérément faux diffusés comme s'ils étaient vrais, en particulier via les réseaux sociaux.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, journaliste",
+            "relation": "Amie",
+            "dialogue": "C'est la définition même d'une fake news, un terme malheureusement très courant."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q1_alt",
+        "text": "Quel terme anglais désigne la pratique journalistique qui consiste à vérifier la véracité des faits ou des déclarations publiques avant ou après leur publication ?",
+        "answers": ["L'infobésité", "Le data journalism", "Le fact-checking", "Le live-tweeting"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le fact-checking (ou vérification des faits) est une pratique éditoriale consistant à contrôler l'exactitude des affirmations, popularisée notamment par des sites spécialisés comme Snopes ou Les Décodeurs.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, vérificateur de faits",
+            "relation": "Collègue",
+            "dialogue": "C'est le fact-checking, notre travail quotidien pour lutter contre la désinformation."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q2",
+        "text": "Comment appelle-t-on le phénomène algorithmique par lequel les plateformes ne montrent à l'utilisateur que des contenus qui renforcent ses opinions préexistantes ?",
+        "answers": ["Le flux d'actualité", "La bulle de filtre (ou chambre d'écho)", "Le référencement naturel", "Le droit à l'oubli"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Le concept de 'filter bubble' (bulle de filtre), forgé par Eli Pariser en 2011, décrit la situation dans laquelle les algorithmes enferment l'internaute dans un univers informatif homogène.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "C'est la bulle de filtre, un concept clé pour comprendre les réseaux sociaux."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q2_alt",
+        "text": "Quel militant du numérique américain a popularisé le concept de 'bulle de filtre' dans un livre publié en 2011 ?",
+        "answers": ["Mark Zuckerberg", "Eli Pariser", "Tim Berners-Lee", "Noam Chomsky"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Eli Pariser, directeur de l'organisation MoveOn.org, a théorisé les dangers des filtres personnalisés dans son ouvrage 'The Filter Bubble: What the Internet Is Hiding from You' (2011).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "Eli Pariser a vraiment mis en lumière ce phénomène avec son livre."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q3",
+        "text": "Quel premier quotidien d'information généraliste en langue française fondé en 1631 illustre l'origine de la presse écrite française ?",
+        "answers": ["Le Monde", "La Gazette de France", "Le Figaro", "L'Humanité"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "La Gazette de France, fondée par Théophraste Renaudot en 1631 avec le soutien du Cardinal de Richelieu, est considérée comme le premier journal français.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "La Gazette de France, c'est le tout premier journal français, fondé par Renaudot."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q3_alt",
+        "text": "Qui était le médecin et journaliste fondateur de la 'Gazette de France' en 1631 ?",
+        "answers": ["Jean-Paul Marat", "Théophraste Renaudot", "Émile de Girardin", "Jules Verne"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "Théophraste Renaudot (1586-1653), médecin du roi, obtint le monopole royal pour publier la Gazette et inventa par ailleurs le bureau d'adresses (ancêtre des petites annonces).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Théophraste Renaudot, un personnage clé de l'histoire de la presse."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q4",
+        "text": "Quel article de la Déclaration des Droits de l'Homme et du Citoyen de 1789 consacre la liberté de communication des pensées et des opinions ?",
+        "answers": ["L'article 1", "L'article 4", "L'article 11", "L'article 17"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "L'article 11 de la DDHC dispose que 'La libre communication des pensées et des opinions est un des droits les plus précieux de l'Homme.'",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "C'est l'article 11 de la DDHC, un pilier de la liberté d'expression."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q4_alt",
+        "text": "En France, quel texte législatif fondamental, adopté le 29 juillet 1881, constitue le socle de la liberté de la presse et du régime juridique des journaux ?",
+        "answers": ["Le décret de Villers-Cotterêts", "La loi sur la liberté de la presse de 1881", "L'ordonnance de 1945", "La loi Informatique et Libertés de 1978"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "La loi du 29 juillet 1881 sur la liberté de la presse supprime le régime d'autorisation préalable et établit le régime de droit commun de la presse française.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "La loi de 1881 est la base de la liberté de la presse en France."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q5",
+        "text": "Quel média international d'information en continu, lancé en 2006 et financé par le Qatar, a transformé l'information géopolitique dans le monde arabe ?",
+        "answers": ["BBC World", "Al Jazeera", "France 24", "RT (Russia Today)"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "Al Jazeera (lancée en 1996 puis disponible en anglais dès 2006) a révolutionné l'information dans le monde arabe en proposant une couverture indépendante des régimes autoritaires de la région.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste du Moyen-Orient",
+            "relation": "Amie",
+            "dialogue": "Al Jazeera a eu un impact énorme sur l'information dans le monde arabe."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q5_alt",
+        "text": "Quel média audiovisuel d'État russe en langues étrangères a été créé en 2005 pour diffuser la version officielle du Kremlin sur la scène internationale ?",
+        "answers": ["Al Jazeera", "Sputnik", "RT (Russia Today)", "NHK World"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "RT (Russia Today), financée par le gouvernement fédéral russe, diffuse en anglais, arabe, espagnol, français et allemand pour contrer le récit des médias occidentaux.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "C'est RT, anciennement Russia Today, un média d'influence russe."
+          },
+          "public_vote": {
+            "votes": [5, 10, 75, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q6",
+        "text": "Quel rapport commandé par la Commission européenne en 2018 a identifié cinq catégories de 'mésinformation' et préconisé un code de conduite pour les plateformes ?",
+        "answers": ["Le rapport Draghi", "Le rapport du groupe d'experts de haut niveau sur les fausses informations", "La directive DSA", "Le rapport Bolkestein"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Le groupe d'experts de haut niveau (HLEG) convoqué par la Commission en 2018 a posé les bases du Code of Practice on Disinformation, auquel ont adhéré Google, Facebook et Twitter.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "Le rapport du groupe d'experts de haut niveau sur les fausses informations est la bonne réponse."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q6_alt",
+        "text": "Quel règlement européen, adopté en 2022 et entré en vigueur en 2024, impose aux très grandes plateformes des obligations renforcées de modération et de transparence ?",
+        "answers": ["Le RGPD", "Le DSA (Digital Services Act)", "La directive SMA", "La loi Avia"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Le Digital Services Act (DSA) oblige les très grandes plateformes (Google, Meta, TikTok…) à auditer leurs algorithmes, supprimer les contenus illégaux et permettre une supervision indépendante.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "C'est le DSA, le Digital Services Act, une régulation majeure pour les plateformes."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q7",
+        "text": "Lors de la guerre du Golfe de 1991, quelle chaîne d'information américaine a bénéficié d'un accès exclusif depuis Bagdad, fondant le modèle du '24h/24' en temps de guerre ?",
+        "answers": ["ABC News", "Fox News", "CNN", "CBS"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La couverture de la guerre du Golfe par CNN depuis l'hôtel Rashid de Bagdad a consacré le modèle de l'information continue en temps de guerre et bouleversé la télévision mondiale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "CNN a marqué un tournant avec sa couverture de la Guerre du Golfe."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q7_alt",
+        "text": "Dans quelle guerre (des années 1990) la manipulation médiatique par des images d'atrocités fabriquées ou sorties de contexte a-t-elle révélé l'émergence de la 'guerre de l'image' ?",
+        "answers": ["La guerre des Falklands", "Les guerres de Yougoslavie", "La guerre d'Afghanistan", "La guerre Iran-Irak"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Les guerres de Yougoslavie ont vu la montée en puissance de la manipulation des images et des récits par les différentes factions, illustrant le rôle crucial de l'information dans les conflits modernes.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Les guerres de Yougoslavie ont été un terrain de jeu pour la manipulation médiatique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q8",
+        "text": "Quel lanceur d'alerte américain a révélé en 2013, grâce à des documents fournis à la presse, la surveillance de masse planétaire organisée par la NSA ?",
+        "answers": ["Julian Assange", "Chelsea Manning", "Edward Snowden", "Reality Winner"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Edward Snowden, ex-contractuel de la NSA, a fourni des milliers de documents classifiés aux journalistes du Guardian et du Washington Post, révélant les programmes PRISM et XKeyscore.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "Edward Snowden, c'est le lanceur d'alerte le plus connu pour la NSA."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q8_alt",
+        "text": "Quel site de publication de documents confidentiels, fondé par Julian Assange, a publié en 2010 des milliers de câbles diplomatiques américains ('Cablegate') ?",
+        "answers": ["WikiLeaks", "Bellingcat", "The Intercept", "Mediapart"],
+        "correctIndex": 0,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "WikiLeaks a mis en ligne 250 000 câbles diplomatiques américains classifiés à partir de novembre 2010, révélant la diplomatie secrète des États-Unis dans le monde entier.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "WikiLeaks et Julian Assange sont indissociables des révélations du Cablegate."
+          },
+          "public_vote": {
+            "votes": [80, 5, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q9",
+        "text": "Comment nomme-t-on la tendance des individus à privilégier les informations qui confirment leurs croyances préexistantes en ignorant celles qui les contredisent ?",
+        "answers": ["Le biais de disponibilité", "Le biais de confirmation", "L'heuristique de représentativité", "L'effet Dunning-Kruger"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Le biais de confirmation (confirmation bias) est un mécanisme cognitif documenté depuis les années 1960 par Peter Wason qui pousse à chercher et retenir les preuves validant ses propres opinions.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "C'est le biais de confirmation, on a tous tendance à chercher ce qui valide nos idées."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q9_alt",
+        "text": "Quel concept désigne la tendance d'un individu à accorder plus de crédit et de poids aux informations récentes ou facilement mémorisables qu'aux statistiques de base ?",
+        "answers": ["Le biais de confirmation", "Le biais de disponibilité", "L'ancrage cognitif", "L'illusion de vérité"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Le biais de disponibilité (availability heuristic), théorisé par Tversky et Kahneman, amène à surestimer la probabilité d'événements frappants (catastrophes) et à sous-estimer les risques statistiques réels.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "Le biais de disponibilité, c'est quand on se base sur ce qui nous vient facilement à l'esprit."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q10",
+        "text": "Quel journaliste et sociologue américain a publié en 1922 l'ouvrage fondateur 'Public Opinion' qui analyse la formation de l'opinion dans les démocraties de masse ?",
+        "answers": ["Noam Chomsky", "Walter Lippmann", "Edward Bernays", "Marshall McLuhan"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Walter Lippmann (1889-1974), dans 'Public Opinion' (1922), a montré que l'opinion publique repose sur des 'images dans nos têtes' (stéréotypes) fabriquées par la presse, et non sur la réalité directe.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "Walter Lippmann, son livre 'Public Opinion' est un classique."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q10_alt",
+        "text": "Quel intellectuel américain a co-signé avec Edward Herman en 1988 'Manufacturing Consent', décrivant comment les médias fabriquent le consentement de l'opinion ?",
+        "answers": ["Walter Lippmann", "Noam Chomsky", "Pierre Bourdieu", "Stuart Hall"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Dans 'Manufacturing Consent: The Political Economy of the Mass Media' (1988), Chomsky et Herman exposent comment les médias de masse fonctionnent comme système de propagande au service des élites.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Noam Chomsky, un critique virulent des médias de masse."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q11",
+        "text": "Quel concept de Marshall McLuhan (1964) affirme que le medium lui-même, indépendamment du contenu transmis, transforme les perceptions et la société ?",
+        "answers": ["L'agenda setting", "Le 'medium is the message'", "Le two-step flow", "La spirale du silence"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La formule 'The medium is the message' de McLuhan (dans 'Understanding Media', 1964) soutient que chaque moyen de communication (télévision, presse, Internet) remodèle en profondeur la société par ses propriétés propres.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "Le 'medium is the message' de McLuhan, c'est une idée très forte en communication."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q11_alt",
+        "text": "Quel concept de la sociologue Elisabeth Noelle-Neumann (1974) décrit le mécanisme par lequel les individus taisent leurs opinions lorsqu'ils les croient minoritaires ?",
+        "answers": ["La bulle de filtre", "La spirale du silence", "L'agenda setting", "Le two-step flow"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La théorie de la 'spirale du silence' d'Elisabeth Noelle-Neumann montre que la peur de l'isolement pousse les individus à taire des opinions qu'ils croient marginales, alimentant leur marginalisation effective.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "La spirale du silence est un concept fascinant sur la pression sociale et l'opinion publique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q12",
+        "text": "Quel site d'investigation en sources ouvertes (OSINT) a identifié les missiles ayant abattu le vol MH17 en 2014 grâce à l'analyse de photos de réseaux sociaux ?",
+        "answers": ["WikiLeaks", "Mediapart", "Bellingcat", "The Intercept"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Bellingcat, fondé par Eliot Higgins en 2014, a utilisé des photos Instagram, des vidéos YouTube et des images satellites pour prouver que le missile BUK provenait d'une brigade militaire russe.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "Bellingcat est devenu célèbre pour ses enquêtes en OSINT, notamment sur le MH17."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q12_alt",
+        "text": "Qu'est-ce que l'OSINT (Open Source Intelligence), dont la pratique a été démocratisée par des organisations comme Bellingcat ?",
+        "answers": ["Le renseignement militaire classifié", "Le renseignement issu de sources ouvertes et publiques", "Le journalisme d'infiltration", "La cryptographie quantique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "L'OSINT désigne la collecte et l'analyse de renseignements à partir de sources d'information librement accessibles (réseaux sociaux, images satellites commerciales, bases de données publiques).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "L'OSINT, c'est le renseignement à partir de sources ouvertes, très puissant aujourd'hui."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q13",
+        "text": "Quel terme technique désigne les vidéos truquées par intelligence artificielle, représentant une personne réelle disant ou faisant des choses qu'elle n'a jamais faites ?",
+        "answers": ["Les fake news", "Les deepfakes", "Les clickbaits", "Les astroturfings"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Les deepfakes (contraction de 'deep learning' et 'fake') exploitent des réseaux de neurones antagonistes génératifs (GAN) pour produire des vidéos ou images synthétiques extrêmement réalistes.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "Les deepfakes sont une menace croissante, c'est de l'IA pour truquer des vidéos."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q13_alt",
+        "text": "Quel phénomène de manipulation en ligne consiste à simuler artificiellement un mouvement populaire spontané pour faire croire à une opinion largement répandue ?",
+        "answers": ["Le phishing", "L'astroturfing", "Le spear fishing", "Le doxxing"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "L'astroturfing (du nom d'une marque de gazon synthétique) consiste à créer l'illusion d'un mouvement citoyen de base (grassroots), alors qu'il est entièrement orchestré et financé de façon cachée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "L'astroturfing, c'est une manipulation pour faire croire à un soutien populaire."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q14",
+        "text": "Quelle théorie de la communication des années 1960 (Katz et Lazarsfeld) affirme que les médias influencent d'abord des 'leaders d'opinion' qui relayent ensuite les messages ?",
+        "answers": ["La théorie de l'agenda setting", "Le two-step flow of communication", "La spirale du silence", "L'effet de cadrage"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le 'two-step flow' de Lazarsfeld et Katz montre que l'influence médiatique est indirecte : les médias touchent d'abord des leaders d'opinion qui, par leurs réseaux sociaux, diffusent et amplifient le message.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "Le two-step flow, c'est l'idée que les leaders d'opinion sont des intermédiaires clés."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q14_alt",
+        "text": "Quel concept (agenda setting) développé par Maxwell McCombs et Donald Shaw en 1972 montre que les médias ne disent pas aux gens quoi penser mais...",
+        "answers": ["...comment voter lors d'une élection", "...à quoi penser et quels sujets considérer comme importants", "...quels produits consommer", "...quelles religions pratiquer"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "L'agenda setting désigne le pouvoir des médias à hiérarchiser l'actualité et à définir quels sujets sont jugés prioritaires pour le public, influençant ainsi indirectement les représentations politiques.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "L'agenda setting, c'est le pouvoir des médias de nous dire à quoi penser."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q15",
+        "text": "Quel concept d'Yves Citton (2014) affirme que l'attention humaine est devenue la ressource rare et l'enjeu central des économies numériques, transformant l'information en spectacle ?",
+        "answers": ["La société de surveillance", "L'économie de l'attention", "Le capitalisme de plateforme", "La société du spectacle"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Dans 'Pour une écologie de l'attention' (2014), Yves Citton montre que la prolifération informationnelle a rendu l'attention humaine rare et précieuse, au cœur du modèle économique des GAFAM.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "L'économie de l'attention, c'est le concept central d'Yves Citton."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q15_alt",
+        "text": "Quel philosophe situationniste français a préfiguré en 1967 la critique de la société de l'image et du spectacle médiatique dans 'La Société du spectacle' ?",
+        "answers": ["Jean Baudrillard", "Michel Foucault", "Guy Debord", "Roland Barthes"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Guy Debord (1931-1994), dans 'La Société du spectacle' (1967), théorise que la vie sociale est devenue une accumulation de spectacles, où les relations humaines se médiatisent à travers des images.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "Guy Debord, avec 'La Société du spectacle', a été un précurseur."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q16",
+        "text": "Quel terme désigne la diffusion massive et rapide d'informations fausses ou trompeuses, souvent à des fins malveillantes, via les réseaux sociaux ?",
+        "answers": ["L'infox", "La rumeur", "La propagande", "Le buzz"],
+        "correctIndex": 0,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'infox est un néologisme français pour 'fake news', désignant une information fallacieuse diffusée intentionnellement pour nuire ou manipuler.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, journaliste",
+            "relation": "Amie",
+            "dialogue": "L'infox est le terme français pour les fausses nouvelles, c'est un vrai problème."
+          },
+          "public_vote": {
+            "votes": [80, 5, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q16_alt",
+        "text": "Comment appelle-t-on le phénomène de surcharge informationnelle qui rend difficile l'assimilation et la compréhension des informations par les individus ?",
+        "answers": ["La désinformation", "L'infobésité", "La censure", "La manipulation"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'infobésité (ou surcharge informationnelle) est le fait de recevoir trop d'informations, ce qui peut entraîner une difficulté à les traiter et à prendre des décisions éclairées.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, vérificateur de faits",
+            "relation": "Collègue",
+            "dialogue": "L'infobésité est un défi majeur de notre époque, on est noyé sous l'information."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q17",
+        "text": "Quel type de journalisme se base sur l'analyse de grandes quantités de données pour révéler des tendances ou des histoires cachées ?",
+        "answers": ["Le journalisme d'investigation", "Le data journalism", "Le journalisme citoyen", "Le journalisme de solution"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Le data journalism (journalisme de données) utilise des outils informatiques pour collecter, analyser et visualiser des ensembles de données complexes afin d'en extraire des informations pertinentes.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "Le data journalism est une branche du journalisme qui exploite les données pour informer."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q17_alt",
+        "text": "Quel terme désigne la capacité d'un citoyen à produire et diffuser de l'information, souvent via les réseaux sociaux, sans passer par les médias traditionnels ?",
+        "answers": ["Le journalisme professionnel", "Le journalisme citoyen", "Le journalisme de niche", "Le journalisme d'agence"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Le journalisme citoyen est la participation de non-professionnels à la collecte, l'analyse et la diffusion de l'information, souvent via des blogs, des vidéos ou des réseaux sociaux.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "Le journalisme citoyen a pris de l'ampleur avec l'avènement des réseaux sociaux."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q18",
+        "text": "Quel événement historique majeur a vu l'émergence de la radio comme média de masse pour la diffusion d'informations et de propagande ?",
+        "answers": ["La Première Guerre mondiale", "La Seconde Guerre mondiale", "La Guerre froide", "La Révolution industrielle"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La Seconde Guerre mondiale a été un tournant pour la radio, utilisée massivement par les belligérants pour informer, mobiliser et diffuser leur propagande auprès des populations.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "La Seconde Guerre mondiale a vraiment montré la puissance de la radio comme média de masse."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q18_alt",
+        "text": "Quel média a été le premier à permettre la diffusion d'informations en direct et en continu à l'échelle mondiale ?",
+        "answers": ["La presse écrite", "La radio", "La télévision", "Internet"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La télévision, avec l'arrivée des satellites et des chaînes d'information en continu, a permis la diffusion d'événements en direct et à l'échelle planétaire, transformant la consommation d'information.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "La télévision a révolutionné l'information en direct et en continu."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q19",
+        "text": "Quel terme désigne la pratique consistant à utiliser des titres accrocheurs et sensationnalistes pour inciter au clic, souvent au détriment de la qualité du contenu ?",
+        "answers": ["Le clickbait", "Le trolling", "Le spam", "Le phishing"],
+        "correctIndex": 0,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le clickbait (littéralement 'appât à clic') est une technique de rédaction de titres et de contenus visant à générer un maximum de clics, souvent par la curiosité ou l'émotion, sans toujours offrir un contenu de qualité équivalente.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "Le clickbait, c'est ces titres racoleurs qui nous poussent à cliquer."
+          },
+          "public_vote": {
+            "votes": [70, 10, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q19_alt",
+        "text": "Quel phénomène de désinformation consiste à présenter des faits réels mais sortis de leur contexte pour leur faire dire autre chose ?",
+        "answers": ["La manipulation", "La désinformation", "La mésinformation", "Le cherry-picking"],
+        "correctIndex": 3,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le cherry-picking (littéralement 'cueillette de cerises') est une forme de manipulation qui consiste à sélectionner uniquement les données qui confirment une thèse, en ignorant celles qui la contredisent, même si elles sont réelles.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "Le cherry-picking, c'est une forme de manipulation par sélection des faits."
+          },
+          "public_vote": {
+            "votes": [10, 10, 5, 75]
+          }
+        }
+      },
+      {
+        "id": "info_q20",
+        "text": "Quel terme désigne l'ensemble des compétences nécessaires pour rechercher, évaluer, utiliser et créer de l'information de manière efficace et éthique ?",
+        "answers": ["La culture générale", "La littératie numérique", "La pensée critique", "L'intelligence artificielle"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La littératie numérique (ou compétences numériques) englobe la capacité à comprendre et utiliser l'information dans des formats numériques, essentielle pour s'informer de manière critique aujourd'hui.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "La littératie numérique est indispensable pour naviguer dans le monde de l'information en ligne."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q20_alt",
+        "text": "Quel concept désigne la capacité à analyser et à évaluer les informations de manière objective, en identifiant les biais et les manipulations ?",
+        "answers": ["La mémorisation", "La pensée critique", "La créativité", "La communication"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La pensée critique est la capacité d'analyser et d'évaluer des informations de manière autonome et rationnelle, en remettant en question les préjugés et les sources.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "La pensée critique est essentielle pour ne pas se laisser manipuler par l'information."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q21",
+        "text": "Quel terme désigne un ensemble de techniques visant à améliorer le positionnement d'un site web dans les résultats des moteurs de recherche ?",
+        "answers": ["Le SEA (Search Engine Advertising)", "Le SEO (Search Engine Optimization)", "Le SEM (Search Engine Marketing)", "Le SMO (Social Media Optimization)"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le SEO (référencement naturel) regroupe les techniques visant à optimiser la visibilité d'un site web dans les résultats organiques des moteurs de recherche, sans payer directement pour les clics.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "Le SEO est crucial pour la visibilité en ligne, c'est l'optimisation pour les moteurs de recherche."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q21_alt",
+        "text": "Quel terme désigne l'utilisation de publicités payantes pour apparaître en bonne position dans les résultats des moteurs de recherche ?",
+        "answers": ["Le SEO", "Le SEA", "Le SMO", "Le SEM"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le SEA (référencement payant) consiste à acheter des mots-clés pour que les annonces apparaissent en tête des résultats de recherche, souvent via des plateformes comme Google Ads.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Le SEA, c'est la publicité payante sur les moteurs de recherche."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q22",
+        "text": "Quel terme désigne la pratique journalistique consistant à vérifier la véracité des faits ou des déclarations publiques ?",
+        "answers": ["L'éditorialisation", "Le fact-checking", "Le reportage", "L'investigation"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le fact-checking est une démarche de vérification des faits et des sources, essentielle pour lutter contre la désinformation.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, journaliste",
+            "relation": "Amie",
+            "dialogue": "Le fact-checking est la base de notre métier pour garantir la fiabilité de l'information."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q22_alt",
+        "text": "Quel phénomène décrit la tendance des médias à se concentrer sur les aspects négatifs ou sensationnels de l'actualité ?",
+        "answers": ["Le biais de confirmation", "Le sensationnalisme", "L'infobésité", "L'agenda setting"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le sensationnalisme est une pratique médiatique qui privilégie les informations spectaculaires, émotionnelles ou choquantes pour attirer l'attention du public, parfois au détriment de la rigueur.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, vérificateur de faits",
+            "relation": "Collègue",
+            "dialogue": "Le sensationnalisme est une dérive des médias qui cherchent à capter l'attention par le choc."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q23",
+        "text": "Quel terme désigne l'ensemble des techniques de communication visant à influencer l'opinion publique dans un sens donné, souvent politique ?",
+        "answers": ["La publicité", "La propagande", "L'information", "La communication institutionnelle"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "La propagande est une forme de communication dont le but est de transmettre une idéologie ou une opinion, souvent de manière répétitive et émotionnelle, pour influencer les comportements et les croyances.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "La propagande est une forme de communication très ancienne, utilisée pour influencer les masses."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q23_alt",
+        "text": "Quel type de source d'information est généralement considéré comme le plus fiable pour des faits vérifiés et analysés ?",
+        "answers": ["Les réseaux sociaux", "Les médias d'information professionnels", "Les blogs personnels", "Les forums de discussion"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Les médias d'information professionnels (journaux, radios, télévisions, sites d'information) sont soumis à des règles déontologiques et à des processus de vérification qui garantissent une plus grande fiabilité de l'information.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "Les médias professionnels sont la source la plus fiable, malgré leurs défauts."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q24",
+        "text": "Quel terme désigne l'ensemble des traces numériques qu'un individu laisse derrière lui lors de son utilisation d'Internet et des services en ligne ?",
+        "answers": ["Le cyber-profil", "L'empreinte numérique", "Le cookie", "Le pixel espion"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "L'empreinte numérique (ou digitale) est l'ensemble des données qu'un individu génère et laisse sur Internet, volontairement ou involontairement, et qui peuvent être collectées et analysées.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "L'empreinte numérique, c'est toutes les traces qu'on laisse sur internet."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q24_alt",
+        "text": "Quel concept décrit la surveillance et l'analyse des comportements des utilisateurs sur Internet à des fins commerciales ou de ciblage ?",
+        "answers": ["La protection des données", "Le profilage", "L'anonymisation", "Le chiffrement"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Le profilage est une technique qui consiste à collecter et analyser des données personnelles pour créer des profils d'utilisateurs, afin de leur proposer des contenus ou publicités ciblés.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Le profilage est une technique de surveillance des comportements en ligne."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q25",
+        "text": "Quel terme désigne la capacité d'une information à devenir virale et à se propager rapidement sur les réseaux sociaux ?",
+        "answers": ["La viralité", "La popularité", "La crédibilité", "La fiabilité"],
+        "correctIndex": 0,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La viralité est la capacité d'un contenu à se diffuser très rapidement et massivement sur Internet, notamment via les partages sur les réseaux sociaux, atteignant un large public en peu de temps.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "La viralité, c'est quand une information se propage très vite sur les réseaux."
+          },
+          "public_vote": {
+            "votes": [70, 10, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q25_alt",
+        "text": "Quel phénomène décrit la tendance des utilisateurs à ne consulter que les informations qui confirment leurs opinions, renforçant ainsi leurs croyances ?",
+        "answers": ["La bulle de filtre", "Le biais de confirmation", "La chambre d'écho", "L'effet de halo"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le biais de confirmation est la tendance à rechercher, interpréter, et se souvenir d'informations qui confirment ses propres croyances ou hypothèses, tout en ignorant les informations qui les contredisent.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "Le biais de confirmation est un piège cognitif qui nous enferme dans nos certitudes."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q26",
+        "text": "Quel terme désigne l'utilisation de l'intelligence artificielle pour générer des textes, des images ou des vidéos de manière autonome ?",
+        "answers": ["Le deep learning", "Le machine learning", "La génération de contenu par IA", "Le traitement du langage naturel"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La génération de contenu par IA utilise des modèles d'intelligence artificielle (comme les GAN ou les grands modèles de langage) pour créer de nouveaux contenus originaux, avec des implications majeures pour l'information.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, sociologue du numérique",
+            "relation": "Amie",
+            "dialogue": "La génération de contenu par IA est en pleine explosion, avec des outils comme ChatGPT ou Midjourney."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "info_q26_alt",
+        "text": "Quel concept décrit la capacité d'une IA à imiter le langage humain de manière si convaincante qu'il est difficile de la distinguer d'un humain ?",
+        "answers": ["Le test de Turing", "Le traitement du langage naturel", "La synthèse vocale", "La conversation artificielle"],
+        "correctIndex": 0,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le test de Turing, proposé par Alan Turing en 1950, est une méthode pour déterminer si une machine est capable de faire preuve d'une intelligence équivalente à celle d'un être humain dans une conversation.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, expert en algorithmes",
+            "relation": "Collègue",
+            "dialogue": "Le test de Turing est le critère pour évaluer si une IA peut passer pour humaine."
+          },
+          "public_vote": {
+            "votes": [75, 10, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "info_q27",
+        "text": "Quel terme désigne la pratique consistant à utiliser des informations personnelles obtenues illégalement pour usurper l'identité d'une personne ?",
+        "answers": ["Le phishing", "Le doxxing", "L'hameçonnage", "L'usurpation d'identité"],
+        "correctIndex": 3,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "L'usurpation d'identité est le fait de prendre l'identité d'une autre personne, généralement pour commettre des actes frauduleux ou malveillants, en utilisant ses données personnelles.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, historienne de la presse",
+            "relation": "Amie",
+            "dialogue": "L'usurpation d'identité est un crime grave qui utilise les données personnelles."
+          },
+          "public_vote": {
+            "votes": [10, 10, 10, 70]
+          }
+        }
+      },
+      {
+        "id": "info_q27_alt",
+        "text": "Quel terme désigne une technique de fraude qui consiste à envoyer de faux e-mails ou messages pour inciter les victimes à révéler leurs informations personnelles ?",
+        "answers": ["Le spam", "Le phishing", "Le spoofing", "Le ransomware"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Le phishing (hameçonnage) est une technique d'escroquerie qui vise à obtenir des informations confidentielles (mots de passe, numéros de carte bancaire) en se faisant passer pour un organisme de confiance.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Le phishing est une technique d'arnaque très courante par e-mail."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      }
+    ]
+  }
+}

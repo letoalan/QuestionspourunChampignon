@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banc d'Essai - Tests Unitaires Client</title>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Outfit:wght@300;400;600&display=swap');
+    
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: radial-gradient(circle at center, #0d1527 0%, #030712 100%);
+      color: #f3f4f6;
+      margin: 0;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(10, 20, 47, 0.6);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 215, 0, 0.15);
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.1), inset 0 0 10px rgba(255, 215, 0, 0.05);
+      padding: 2.5rem;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 2rem;
+      background: linear-gradient(to right, #ffd700, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.3));
+    }
+
+    .suite-card {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 1.5rem;
+    }
+
+    .suite-card:last-child {
+      border-bottom: none;
+    }
+
+    .suite-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.1rem;
+      color: #ffd700;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .test-item {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      border-radius: 8px;
+      padding: 0.8rem 1.2rem;
+      margin-bottom: 0.6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+
+    .test-item:hover {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    .test-name {
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .test-status {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+    }
+
+    .status-pass {
+      background: rgba(46, 204, 113, 0.15);
+      border: 1px solid #2ecc71;
+      color: #2ecc71;
+      box-shadow: 0 0 8px rgba(46, 204, 113, 0.2);
+    }
+
+    .status-fail {
+      background: rgba(231, 76, 60, 0.15);
+      border: 1px solid #e74c3c;
+      color: #e74c3c;
+      box-shadow: 0 0 8px rgba(231, 76, 60, 0.2);
+    }
+
+    .fail-details {
+      grid-column: 1 / span 2;
+      background: rgba(0, 0, 0, 0.2);
+      border-left: 3px solid #e74c3c;
+      color: #fca5a5;
+      padding: 0.8rem;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+      width: 100%;
+    }
+
+    .summary-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    .summary-text {
+      font-size: 1.05rem;
+    }
+
+    .summary-counts {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .count-box {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+    }
+
+    .btn-return {
+      display: inline-block;
+      margin-top: 1.5rem;
+      text-decoration: none;
+      background: linear-gradient(135deg, #ffd700 0%, #d4af37 100%);
+      color: #030712;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.5rem;
+      border-radius: 50px;
+      box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .btn-return:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(255, 215, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Banc d'Essai - Résultats des Tests</h1>
+
+    <div id="test-results">
+      <!-- Rempli dynamiquement -->
+    </div>
+
+    <div class="summary-bar">
+      <span class="summary-text">Bilan d'exécution du banc d'essai :</span>
+      <div class="summary-counts">
+        <span id="pass-count" class="count-box status-pass">0 Succès</span>
+        <span id="fail-count" class="count-box status-fail">0 Échec</span>
+      </div>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="index.html" class="btn-return">← Retourner au Jeu</a>
+    </div>
+  </div>
+
+  <!-- Intégration du module de tests -->
+  <script type="module">
+    import { runTests } from './js/tests.js';
+
+    const resultsContainer = document.getElementById('test-results');
+    const passCountBox = document.getElementById('pass-count');
+    const failCountBox = document.getElementById('fail-count');
+
+    let currentSuiteDiv = null;
+    let successCount = 0;
+    let failureCount = 0;
+
+    // Lancer les tests et recevoir les rapports d'exécution
+    runTests((event) => {
+      if (event.type === 'suite_start') {
+        const suiteDiv = document.createElement('div');
+        suiteDiv.className = 'suite-card';
+        
+        const title = document.createElement('h2');
+        title.className = 'suite-title';
+        title.innerText = `⚙️ ${event.name}`;
+        suiteDiv.appendChild(title);
+        
+        resultsContainer.appendChild(suiteDiv);
+        currentSuiteDiv = suiteDiv;
+      } 
+      
+      else if (event.type === 'test_success') {
+        successCount++;
+        
+        const item = document.createElement('div');
+        item.className = 'test-item';
+        
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'test-name';
+        nameSpan.innerText = `✓ ${event.name}`;
+        item.appendChild(nameSpan);
+        
+        const statusSpan = document.createElement('span');
+        statusSpan.className = 'test-status status-pass';
+        statusSpan.innerText = 'PASS';
+        item.appendChild(statusSpan);
+        
+        if (currentSuiteDiv) {
+          currentSuiteDiv.appendChild(item);
+        }
+      } 
+      
+      else if (event.type === 'test_failure') {
+        failureCount++;
+        
+        const container = document.createElement('div');
+        container.style.display = 'flex';
+        container.style.flexDirection = 'column';
+        container.className = 'test-item';
+        
+        const row = document.createElement('div');
+        row.style.display = 'flex';
+        row.style.justifyContent = 'space-between';
+        row.style.width = '100%';
+        
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'test-name';
+        nameSpan.style.color = '#f87171';
+        nameSpan.innerText = `✗ ${event.name}`;
+        row.appendChild(nameSpan);
+        
+        const statusSpan = document.createElement('span');
+        statusSpan.className = 'test-status status-fail';
+        statusSpan.innerText = 'FAIL';
+        row.appendChild(statusSpan);
+        
+        container.appendChild(row);
+        
+        const details = document.createElement('div');
+        details.className = 'fail-details';
+        details.innerText = event.error;
+        container.appendChild(details);
+        
+        if (currentSuiteDiv) {
+          currentSuiteDiv.appendChild(container);
+        }
+      }
+
+      // Mettre à jour les totaux en temps réel
+      passCountBox.innerText = `${successCount} Succès`;
+      failCountBox.innerText = `${failureCount} Échec`;
+    });
+  </script>
+</body>
+</html>

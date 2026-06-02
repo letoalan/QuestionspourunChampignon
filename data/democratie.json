@@ -1,0 +1,1522 @@
+{
+  "version": "1.4",
+  "game": {
+    "title": "HGGSP Spécialité - La Démocratie",
+    "theme": "Comprendre un régime politique : la Démocratie (Première)",
+    "currency": "points",
+    "questions": [
+      {
+        "id": "dem_q1",
+        "text": "Selon l'article 1er de sa Constitution, de quel adjectif la France est-elle qualifiée en plus d'être indivisible, laïque et démocratique ?",
+        "answers": ["Libérale", "Sociale", "Fédérale", "Présidentielle"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'article 1er de la Constitution de la Ve République énonce : 'La France est une République indivisible, laïque, démocratique et sociale.'",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Pour la France, l'article 1er mentionne 'sociale'. C'est assez distinctif."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q1_alt",
+        "text": "Selon l'article 1er de sa Constitution, sous quelle forme politique l'État espagnol est-il officiellement organisé ?",
+        "answers": ["La République sociale", "La Monarchie parlementaire", "La Fédération démocratique", "Le Régime directorial"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "La Constitution espagnole dispose dans son article 1er que 'la forme politique de l'État espagnol est la Monarchie parlementaire'.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "L'Espagne est une monarchie parlementaire, c'est une spécificité importante de leur système."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q2",
+        "text": "L'étymologie du mot 'démocratie' associe le pouvoir (kratos) au terme grec 'demos'. Que signifie précisément 'demos' ?",
+        "answers": ["Les dieux", "Le peuple", "Les meilleurs", "Les savants"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Le mot démocratie provient du grec 'demokratia', combinant 'demos' (le peuple, l'ensemble des citoyens) et 'kratos' (le pouvoir, la souveraineté).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "Demos, c'est le peuple en grec. C'est la base de la démocratie !"
+          },
+          "public_vote": {
+            "votes": [5, 90, 3, 2]
+          }
+        }
+      },
+      {
+        "id": "dem_q2_alt",
+        "text": "Quelle cité antique de l'Attique est universellement reconnue comme le berceau historique et le lieu d'apparition du terme de 'démocratie' ?",
+        "answers": ["Sparte", "Rome", "Athènes", "Carthage"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Athènes est reconnue comme le berceau historique où s'est développée la première expérience démocratique et où le terme est apparu au Ve siècle av. J.-C.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Dubois, historien",
+            "relation": "Ancien professeur",
+            "dialogue": "Sans hésiter, Athènes. C'est le berceau de la démocratie."
+          },
+          "public_vote": {
+            "votes": [5, 5, 85, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q3",
+        "text": "Quel célèbre stratège et homme d'État incarne l'apogée de la démocratie directe athénienne au Ve siècle avant J.-C. ?",
+        "answers": ["Solon", "Clisthène", "Périclès", "Platon"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "Le Ve siècle athénien est souvent qualifié de 'siècle de Périclès', en référence au stratège qui a approfondi les institutions démocratiques de la cité.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, archéologue",
+            "relation": "Amie",
+            "dialogue": "Périclès, c'est le nom qui me vient tout de suite pour l'apogée de la démocratie athénienne."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q3_alt",
+        "text": "Dans l'Athènes du Ve siècle av. J.-C., qui détenait l'accès exclusif au statut de citoyen participant aux délibérations ?",
+        "answers": ["Tous les habitants de la cité sans exception", "Les propriétaires terriens uniquement", "Les hommes libres nés de parents athéniens", "Les guerriers spartiates"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "La citoyenneté athénienne était très restreinte : seuls les hommes libres, majeurs, ayant accompli leur éphébie et nés de parents athéniens étaient citoyens. Femmes, métèques (étrangers) et esclaves étaient exclus.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "C'était très restrictif à Athènes, seuls les hommes libres nés de parents athéniens étaient citoyens."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q4",
+        "text": "Qu'est-ce qui caractérise principalement une démocratie qualifiée de 'représentative' ?",
+        "answers": ["Les citoyens votent toutes les lois directement sans intermédiaires", "La souveraineté est déléguée à des représentants désignés par les citoyens pour légiférer", "Un monarque absolu nomme les législateurs à vie", "Le pouvoir appartient à un parti unique"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "Dans une démocratie représentative, les citoyens exercent leur souveraineté en désignant, lors d'élections régulières, des représentants qui prennent les décisions politiques en leur nom.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "Représentative, c'est quand on élit des gens pour voter les lois à notre place."
+          },
+          "public_vote": {
+            "votes": [10, 70, 15, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q4_alt",
+        "text": "Comment se définit le principe d'une démocratie qualifiée de 'directe' ?",
+        "answers": ["L'exercice direct de la souveraineté par le peuple lui-même, sans médiation de représentants", "L'élection directe du Président au suffrage universel", "Le contrôle direct des médias par le gouvernement", "La nomination directe des magistrats par tirage au sort uniquement"],
+        "correctIndex": 0,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "La démocratie directe se caractérise par la participation active des citoyens qui délibèrent et votent eux-mêmes les lois (comme à l'Ecclésia d'Athènes ou lors de référendums).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "Directe, c'est quand le peuple vote lui-même les lois, sans intermédiaires."
+          },
+          "public_vote": {
+            "votes": [85, 5, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q5",
+        "text": "Quel pays a connu entre 1975 et 1982 une transition pacifique vers la démocratie, articulée autour de la figure du roi Juan Carlos ?",
+        "answers": ["Le Portugal", "L'Espagne", "Le Chili", "La Grèce"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "L'Espagne post-franquiste est l'exemple type d'une transition pacifique, menée par des compromis politiques et supervisée par le souverain Juan Carlos Ier.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste de l'Europe",
+            "relation": "Amie",
+            "dialogue": "C'est l'Espagne, avec le roi Juan Carlos après Franco. Une transition remarquable."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q5_alt",
+        "text": "Quelle révolution de 1974 menée par l'armée a mis fin à la dictature autoritaire de l'Estado Novo au Portugal ?",
+        "answers": ["La révolution de Velours", "La révolution des Œillets", "La révolution Glorieuse", "La révolution Bolivarienne"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "Le 25 avril 1974, la révolution des Œillets, coup d'État militaire pacifique soutenu par la population, renverse le régime dictatorial hérité de Salazar au Portugal.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, historien contemporain",
+            "relation": "Collègue",
+            "dialogue": "Au Portugal, c'est la Révolution des Œillets. Un événement unique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q6",
+        "text": "Qui a prononcé en 1819 un célèbre discours opposant la liberté des Anciens à celle des Modernes à l'Athénée royal de Paris ?",
+        "answers": ["Alexis de Tocqueville", "Benjamin Constant", "Jean-Jacques Rousseau", "Karl Marx"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Benjamin Constant est l'auteur de la célèbre conférence de 1819, 'De la liberté des Anciens comparée à celle des Modernes', jalon fondamental de la pensée libérale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Martin, philosophe",
+            "relation": "Ancien professeur",
+            "dialogue": "C'est Benjamin Constant, un texte essentiel sur la liberté."
+          },
+          "public_vote": {
+            "votes": [15, 65, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q6_alt",
+        "text": "Selon Benjamin Constant, qu'est-ce qui caractérise principalement la 'liberté des Anciens' par rapport à la liberté moderne ?",
+        "answers": ["La protection absolue de la vie privée face à l'État", "La participation active, constante et directe au pouvoir collectif de la cité", "La liberté religieuse individuelle", "La liberté de faire du commerce international librement"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Pour Constant, la liberté des Anciens consiste en l'exercice collectif et direct de la souveraineté, impliquant toutefois un assujettissement complet de l'individu à l'autorité du corps social.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La liberté des Anciens, c'est la participation directe à la vie politique de la cité."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q7",
+        "text": "Quel penseur politique a alerté sur les risques de dérive des sociétés égalitaires modernes vers un 'despotisme doux' ou 'pouvoir tutélaire' ?",
+        "answers": ["Benjamin Constant", "Alexis de Tocqueville", "Jean-Jacques Rousseau", "John Locke"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Alexis de Tocqueville a théorisé le risque d'un 'pouvoir tutélaire' étatique omniprésent mais bienveillant, alimenté par le repli individualiste des citoyens dans leur sphère privée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Tocqueville a beaucoup écrit sur le despotisme doux et le pouvoir tutélaire."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q7_alt",
+        "text": "Dans quel ouvrage majeur en deux tomes Alexis de Tocqueville théorise-t-il les forces, fragilités et dynamiques égalitaires de la démocratie ?",
+        "answers": ["Du Contrat Social", "L'Esprit des Lois", "De la démocratie en Amérique", "Le Léviathan"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Tocqueville a publié 'De la démocratie en Amérique' (tome 1 en 1835, tome 2 en 1840) à la suite d'un voyage d'étude du système pénitentiaire américain.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "C'est 'De la démocratie en Amérique', son œuvre la plus connue."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q8",
+        "text": "Quel président chilien, élu démocratiquement en 1970 à la tête d'une coalition de gauche, a été renversé par un coup d'État militaire en 1973 ?",
+        "answers": ["Augusto Pinochet", "Salvador Allende", "Eduardo Frei", "Fidel Castro"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Salvador Allende a dirigé le Chili de 1970 à sa mort le 11 septembre 1973, lors du coup d'État militaire dirigé par le général Augusto Pinochet.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Dubois, historien",
+            "relation": "Ancien professeur",
+            "dialogue": "Salvador Allende, c'est une figure tragique de l'histoire chilienne."
+          },
+          "public_vote": {
+            "votes": [10, 70, 15, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q8_alt",
+        "text": "À quelle date précise s'est produit le coup d'État militaire au Chili, marquant la fin brutale de l'expérience démocratique chilienne ?",
+        "answers": ["14 juillet 1789", "11 septembre 1973", "25 avril 1974", "1er janvier 1993"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le coup d'État militaire dirigé par Augusto Pinochet s'est déroulé le 11 septembre 1973, avec le bombardement du palais présidentiel de la Moneda.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, archéologue",
+            "relation": "Amie",
+            "dialogue": "Le 11 septembre 1973, une date sombre pour le Chili."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q9",
+        "text": "Quel était le nom de la coalition politique de gauche (regroupant socialistes et communistes) qui a porté Salvador Allende au pouvoir au Chili ?",
+        "answers": ["Le Front Populaire", "L'Unité Populaire", "Le Mouvement des Forces Armées", "L'Alliance Démocratique"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "L'Unité Populaire (UP) était la coalition de partis de gauche qui a soutenu le programme de transition vers le socialisme par la voie démocratique de Salvador Allende.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "C'était l'Unité Populaire, une coalition historique."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q9_alt",
+        "text": "Comment s'appelle l'organisation militaire portugaise clandestine qui a préparé et exécuté la transition démocratique de 1974 ?",
+        "answers": ["Le Mouvement des Forces Armées (MFA)", "La Junte de Reconstruction Nationale", "Le Front de Libération Nationale", "La ligue spartiate"],
+        "correctIndex": 0,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Le Mouvement des Forces Armées (Mouvement des capitaines) est l'organisation militaire responsable du soulèvement pacifique de la révolution des Œillets au Portugal.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste de l'Europe",
+            "relation": "Amie",
+            "dialogue": "Le MFA, le Mouvement des Forces Armées, a joué un rôle clé au Portugal."
+          },
+          "public_vote": {
+            "votes": [75, 10, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q10",
+        "text": "À quelle date l'Union européenne est-elle officiellement née à la suite de l'entrée en vigueur du traité de Maastricht ?",
+        "answers": ["1er janvier 1957", "9 mai 1950", "1er janvier 1993", "25 avril 1974"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Née le 1er janvier 1993, l'Union européenne transforme les anciennes Communautés économiques européennes à la suite de la signature du traité de Maastricht.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "L'UE est née avec le traité de Maastricht, le 1er janvier 1993."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q10_alt",
+        "text": "Comment s'appellent les critères définis en 1993 fixant les exigences (notamment démocratiques) pour tout État candidat à l'adhésion à l'Union européenne ?",
+        "answers": ["Les critères de Maastricht", "Les critères de Copenhague", "Les accords de Schengen", "Les protocoles de Lisbonne"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Élaborés lors du Conseil européen de 1993, les critères de Copenhague exigent qu'un pays candidat dispose d'institutions stables garantissant la démocratie et l'État de droit.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "Ce sont les critères de Copenhague, essentiels pour l'élargissement de l'UE."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q11",
+        "text": "Dans l'Athènes démocratique, quel principe fondamental désignait l'égalité absolue de tous les citoyens devant la loi ?",
+        "answers": ["L'isegoria", "L'isonomie", "L'ostracisme", "La misthophorie"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "L'isonomie (de 'isos' égal et 'nomos' loi) est le pilier fondateur de la démocratie athénienne, assurant que la loi s'applique identiquement à tous les citoyens.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "L'égalité devant la loi à Athènes, c'est l'isonomie."
+          },
+          "public_vote": {
+            "votes": [15, 65, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q11_alt",
+        "text": "Dans l'Athènes démocratique, quel principe fondamental désignait l'égalité du droit de parole à la tribune de l'assemblée (Ecclésia) ?",
+        "answers": ["L'isonomie", "L'isegoria", "L'héliée", "L'ostracisme"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "L'isegoria est le droit égal et sacré pour chaque citoyen de prendre la parole et de proposer des motions au cours des débats de l'Ecclésia.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "L'égalité de parole, c'est l'isegoria. Très important à l'Ecclésia."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q12",
+        "text": "Selon Benjamin Constant, quelle transformation majeure des sociétés modernes rend la démocratie représentative indispensable par rapport au modèle antique ?",
+        "answers": ["La disparition totale des armées nationales", "La grande taille des républiques et la prépondérance du travail, du commerce et de la vie privée", "L'alphabétisation complète des femmes", "La centralisation absolue du pouvoir exécutif"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Constant explique que l'extension géographique des États modernes, la quête du bien-être individuel dans la sphère commerciale et l'absence d'esclaves ne laissent plus aux citoyens modernes le temps de délibérer quotidiennement sur la place publique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "Constant met en avant la taille des États et l'importance du commerce et de la vie privée pour les Modernes."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q12_alt",
+        "text": "Quel philosophe du XXe siècle a qualifié la 'liberté des Modernes' de Constant sous le concept philosophique de 'liberté négative' (liberté vis-à-vis du pouvoir) ?",
+        "answers": ["Karl Popper", "Isaiah Berlin", "Hannah Arendt", "Raymond Aron"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Le philosophe et historien des idées Isaiah Berlin a désigné par 'liberté négative' l'absence d'obstacles extérieurs à l'action individuelle, en opposition à la 'liberté positive' d'autonomie collective.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Dubois, historien",
+            "relation": "Ancien professeur",
+            "dialogue": "Isaiah Berlin a bien développé les concepts de liberté négative et positive."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q13",
+        "text": "Quel concept d'Alexis de Tocqueville décrit la recherche insatiable de l'égalité de conditions, qui peut pousser le peuple à accepter des restrictions de liberté ?",
+        "answers": ["L'individualisme tutélaire", "La passion égalitaire", "La tyrannie législative", "L'égoïsme aristocratique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La 'passion égalitaire' désigne cette force démocratique poussant les citoyens à exiger une égalité toujours plus parfaite, quitte à déléguer tous leurs pouvoirs à un État centralisateur protecteur.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, archéologue",
+            "relation": "Amie",
+            "dialogue": "Tocqueville parle de la 'passion égalitaire' comme un moteur mais aussi un danger pour la liberté."
+          },
+          "public_vote": {
+            "votes": [15, 65, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q13_alt",
+        "text": "Selon Alexis de Tocqueville, quel remède institutionnel et social est indispensable pour combattre l'individualisme démocratique et préserver la liberté collective ?",
+        "answers": ["Une centralisation forte du pouvoir exécutif", "La participation locale et la vitalité de la vie associative et religieuse", "L'obligation de voter sous peine d'amende", "Le rétablissement d'une charte aristocratique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Pour Tocqueville, les associations locales et communales forcent les individus à sortir de leur repli privé et à collaborer pour le bien commun, créant un contrepoids face au pouvoir tutélaire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Tocqueville insiste sur la participation locale et les associations pour contrer l'individualisme."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q14",
+        "text": "Quel traité de 2007 constitue le cadre actuel de la répartition des compétences de l'Union européenne et de ses institutions majeures (Commission, Parlement, Conseil) ?",
+        "answers": ["Le traité de Rome", "Le traité d'Amsterdam", "Le traité de Lisbonne", "L'Acte Unique Européen"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le traité de Lisbonne (2007) a réformé les institutions européennes en renforçant les pouvoirs de codécision du Parlement européen et en clarifiant la subsidiarité.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste de l'Europe",
+            "relation": "Amie",
+            "dialogue": "Le traité de Lisbonne est le cadre actuel de l'UE, il a apporté des réformes importantes."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q14_alt",
+        "text": "Quelle critique institutionnelle récurrente, née dans les années 1980, vise le manque de représentativité et de contrôle direct des citoyens sur la gouvernance de l'Union européenne ?",
+        "answers": ["L'oligarchie douanière", "Le déficit démocratique", "Le centralisme fédéraliste", "L'inefficacité législative"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le terme de 'déficit démocratique' caractérise les critiques sur le manque de transparence, le rôle prépondérant d'instances non élues (comme la Commission) et le sentiment de distance entre institutions et citoyens.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "On parle souvent du 'déficit démocratique' de l'UE, c'est une critique majeure."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q15",
+        "text": "Quel historien a contesté en 1973 la vision dualiste stricte de Constant en démontrant que la démocratie athénienne disposait aussi d'une protection juridique solide des individus ?",
+        "answers": ["Claude Mossé", "Moses Finley", "Vincent Azoulay", "Paulin Ismard"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Dans son ouvrage de 1973, 'Démocratie antique et démocratie moderne', Moses E. Finley conteste l'opposition trop rigide de Constant en montrant l'importance des garanties de droit dont disposait le citoyen athénien.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "Moses Finley a nuancé la vision de Constant sur la démocratie athénienne."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q15_alt",
+        "text": "Quelle historienne française de référence a mis en lumière que les décrets athéniens, bien que votés à la majorité simple de l'Ecclésia, étaient acceptés de facto comme unanimes ?",
+        "answers": ["Madame de Staël", "Claude Mossé", "Germaine de Coppet", "Marie-Jeanne Rossignol"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Claude Mossé souligne l'importance symbolique de l'isonomie et de l'isegoria qui amenaient l'assemblée populaire à accepter immédiatement la décision majoritaire comme émanant d'un démos uni.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Martin, philosophe",
+            "relation": "Ancien professeur",
+            "dialogue": "Claude Mossé a beaucoup travaillé sur l'unanimité des décrets athéniens."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q16",
+        "text": "Quel philosophe grec antique est considéré comme le père de la démocratie athénienne pour ses réformes du VIe siècle av. J.-C. ?",
+        "answers": ["Platon", "Aristote", "Solon", "Socrate"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Solon, législateur athénien du VIe siècle av. J.-C., a mis en place des réformes qui ont jeté les bases de la démocratie, notamment l'abolition de l'esclavage pour dettes.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Solon est souvent cité comme le réformateur clé de la démocratie athénienne."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q16_alt",
+        "text": "Quel système politique est caractérisé par le pouvoir détenu par un petit groupe de personnes privilégiées, souvent en raison de leur richesse ou de leur statut social ?",
+        "answers": ["La démocratie", "L'oligarchie", "La monarchie", "La théocratie"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'oligarchie est un régime politique où le pouvoir est exercé par un petit nombre d'individus, souvent issus d'une élite économique ou sociale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "L'oligarchie est le pouvoir des quelques-uns, souvent les plus riches."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q17",
+        "text": "Quel philosophe des Lumières a théorisé la séparation des pouvoirs (législatif, exécutif, judiciaire) comme garantie de la liberté politique ?",
+        "answers": ["Jean-Jacques Rousseau", "Voltaire", "Montesquieu", "Denis Diderot"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Montesquieu, dans 'De l'esprit des lois', a développé la théorie de la séparation des pouvoirs, essentielle pour éviter la tyrannie et garantir les libertés individuelles.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "Montesquieu est le grand théoricien de la séparation des pouvoirs."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q17_alt",
+        "text": "Quel principe démocratique garantit que la loi est la même pour tous les citoyens, sans privilège ni discrimination ?",
+        "answers": ["L'égalité des chances", "L'égalité devant la loi", "La liberté d'expression", "Le droit de vote"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "L'égalité devant la loi est un principe fondamental des démocraties modernes, assurant que tous les citoyens sont traités de la même manière par le système juridique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, historien contemporain",
+            "relation": "Collègue",
+            "dialogue": "L'égalité devant la loi est un pilier de toute démocratie."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q18",
+        "text": "Quel pays est souvent cité comme un exemple de démocratie semi-directe, combinant des éléments de démocratie directe et représentative ?",
+        "answers": ["Les États-Unis", "La France", "La Suisse", "Le Royaume-Uni"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La Suisse est un exemple notable de démocratie semi-directe, où les citoyens peuvent voter directement sur des lois via des référendums et des initiatives populaires, en plus d'élire des représentants.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La Suisse est le modèle de la démocratie semi-directe avec ses référendums."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q18_alt",
+        "text": "Quel est le nom du processus par lequel les citoyens peuvent proposer une loi ou une modification constitutionnelle et la soumettre au vote populaire ?",
+        "answers": ["Le référendum", "L'initiative populaire", "Le plébiscite", "La pétition"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "L'initiative populaire est un mécanisme de démocratie directe qui permet aux citoyens de proposer une loi ou une modification constitutionnelle, qui sera ensuite soumise au vote populaire si elle recueille un nombre suffisant de signatures.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "L'initiative populaire est un outil puissant de la démocratie directe."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q19",
+        "text": "Quel régime politique est caractérisé par l'absence de liberté d'expression, la répression de l'opposition et le contrôle total de l'État sur la société ?",
+        "answers": ["La démocratie libérale", "Le totalitarisme", "L'anarchie", "La technocratie"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le totalitarisme est un régime politique où l'État exerce un contrôle absolu sur tous les aspects de la vie publique et privée, ne tolérant aucune opposition et utilisant la propagande et la terreur.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Dubois, historien",
+            "relation": "Ancien professeur",
+            "dialogue": "Le totalitarisme est l'opposé de la démocratie, avec un contrôle absolu de l'État."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q19_alt",
+        "text": "Quel philosophe a écrit 'La République', un dialogue sur la justice et le régime politique idéal, décrivant une cité dirigée par des philosophes-rois ?",
+        "answers": ["Aristote", "Socrate", "Platon", "Héraclite"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Platon, dans 'La République', explore la nature de la justice et propose un modèle de cité idéale gouvernée par des philosophes, loin des principes démocratiques athéniens de son époque.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Émilie, archéologue",
+            "relation": "Amie",
+            "dialogue": "Platon est l'auteur de 'La République', une œuvre majeure de la philosophie politique."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q20",
+        "text": "Quel événement majeur de l'histoire américaine a conduit à l'abolition de l'esclavage et à une extension des droits civiques ?",
+        "answers": ["La guerre d'indépendance", "La guerre de Sécession", "La Grande Dépression", "Le mouvement des droits civiques"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 16000,
+        "explanation": "La guerre de Sécession (1861-1865) a abouti à la victoire de l'Union et à l'abolition de l'esclavage par le 13e amendement, marquant une étape cruciale dans l'histoire des droits civiques aux États-Unis.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Thomas, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "La guerre de Sécession a été déterminante pour l'abolition de l'esclavage aux États-Unis."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q20_alt",
+        "text": "Quel président américain a prononcé le célèbre discours de Gettysburg en 1863, réaffirmant les principes de liberté et d'égalité ?",
+        "answers": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "Franklin D. Roosevelt"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 16000,
+        "explanation": "Abraham Lincoln, lors de son discours de Gettysburg, a rappelé que la nation américaine était 'conçue dans la liberté et dédiée à la proposition que tous les hommes sont créés égaux'.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste de l'Europe",
+            "relation": "Amie",
+            "dialogue": "Abraham Lincoln est l'auteur du discours de Gettysburg, un texte fondateur."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q21",
+        "text": "Quel concept décrit la capacité d'un État à garantir les droits et libertés fondamentaux de ses citoyens, ainsi que l'égalité devant la loi ?",
+        "answers": ["La dictature", "L'État de droit", "L'anarchie", "La théocratie"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 32000,
+        "explanation": "L'État de droit est un système institutionnel dans lequel la puissance publique est soumise au droit, garantissant la protection des droits fondamentaux et l'égalité de tous devant la loi.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "L'État de droit est essentiel pour la protection des libertés individuelles."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q21_alt",
+        "text": "Quel philosophe a théorisé le 'contrat social' comme fondement légitime de l'autorité politique, où les individus cèdent une partie de leur liberté pour la sécurité collective ?",
+        "answers": ["John Locke", "Thomas Hobbes", "Jean-Jacques Rousseau", "Emmanuel Kant"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 32000,
+        "explanation": "Jean-Jacques Rousseau, dans 'Du Contrat social', explore comment les individus peuvent vivre ensemble sous une autorité légitime sans renoncer à leur liberté, en formant une volonté générale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "Rousseau est le grand théoricien du contrat social, une idée fondatrice de la démocratie."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q22",
+        "text": "Quel est le nom du processus par lequel les citoyens élisent leurs représentants pour prendre des décisions en leur nom ?",
+        "answers": ["Le référendum", "Le plébiscite", "Le vote", "L'élection"],
+        "correctIndex": 3,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'élection est le mécanisme central de la démocratie représentative, permettant aux citoyens de choisir leurs dirigeants et législateurs.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "L'élection est le moyen par lequel on choisit nos représentants en démocratie."
+          },
+          "public_vote": {
+            "votes": [10, 10, 5, 75]
+          }
+        }
+      },
+      {
+        "id": "dem_q22_alt",
+        "text": "Quel type de suffrage permet à tous les citoyens majeurs, sans distinction de sexe, de fortune ou de capacité, de voter ?",
+        "answers": ["Le suffrage censitaire", "Le suffrage universel", "Le suffrage capacitaire", "Le suffrage restreint"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le suffrage universel est le droit de vote accordé à tous les citoyens majeurs, sans aucune restriction basée sur la richesse, le sexe, l'éducation ou la race.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Le suffrage universel est la base de la démocratie moderne, tous les citoyens peuvent voter."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q23",
+        "text": "Quel philosophe a décrit l'état de nature comme une 'guerre de tous contre tous' et a justifié un pouvoir absolu pour garantir la sécurité ?",
+        "answers": ["John Locke", "Jean-Jacques Rousseau", "Thomas Hobbes", "Montesquieu"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Thomas Hobbes, dans son œuvre 'Léviathan', a théorisé l'état de nature comme un chaos où chacun est en guerre contre tous, nécessitant un souverain absolu pour maintenir l'ordre et la paix.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "Hobbes est connu pour sa vision pessimiste de l'état de nature et la nécessité d'un pouvoir fort."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q23_alt",
+        "text": "Quel philosophe a défendu l'idée que le gouvernement doit protéger les droits naturels (vie, liberté, propriété) des individus, et que le peuple a le droit de résister à la tyrannie ?",
+        "answers": ["Thomas Hobbes", "Jean-Jacques Rousseau", "John Locke", "Voltaire"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "John Locke, figure majeure de l'empirisme et du libéralisme politique, a développé la théorie des droits naturels et du droit de résistance à l'oppression, influençant les révolutions américaine et française.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, historien contemporain",
+            "relation": "Collègue",
+            "dialogue": "John Locke est le philosophe des droits naturels et de la résistance à la tyrannie."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q24",
+        "text": "Quel terme désigne la participation des citoyens à la vie politique au-delà du simple vote, par des actions comme les manifestations, le militantisme ou le bénévolat ?",
+        "answers": ["L'abstention", "La participation électorale", "La participation citoyenne", "L'apathie politique"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La participation citoyenne englobe toutes les formes d'engagement des individus dans la vie publique, qu'elles soient conventionnelles (vote) ou non conventionnelles (manifestations, pétitions, associations).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La participation citoyenne, c'est l'engagement actif des citoyens dans la vie politique."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q24_alt",
+        "text": "Quel concept décrit la diminution progressive de l'intérêt et de l'engagement des citoyens pour la politique traditionnelle ?",
+        "answers": ["La mobilisation", "La politisation", "La dépolitisation", "L'engagement civique"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La dépolitisation est un phénomène de désintérêt croissant des citoyens pour la politique institutionnelle, pouvant se traduire par une abstention élevée ou un désenchantement démocratique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "La dépolitisation est un défi pour les démocraties modernes, avec un désintérêt croissant."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q25",
+        "text": "Quel pays est souvent considéré comme le berceau du parlementarisme moderne, avec un système politique où le gouvernement est responsable devant le parlement ?",
+        "answers": ["Les États-Unis", "La France", "Le Royaume-Uni", "L'Allemagne"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le Royaume-Uni, avec son système de monarchie parlementaire, est souvent vu comme le berceau du parlementarisme, où le pouvoir exécutif émane du parlement et lui est responsable.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste de l'Europe",
+            "relation": "Amie",
+            "dialogue": "Le Royaume-Uni a un système parlementaire très ancien et influent."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q25_alt",
+        "text": "Quel type de régime politique est caractérisé par une concentration des pouvoirs entre les mains d'un seul individu ou d'un petit groupe, sans contrôle démocratique ?",
+        "answers": ["La démocratie", "La république", "L'autoritarisme", "Le parlementarisme"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "L'autoritarisme est un régime politique qui se caractérise par la soumission de la société à l'autorité de l'État, la concentration du pouvoir et la répression de l'opposition, sans être nécessairement totalitaire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Martin, philosophe",
+            "relation": "Ancien professeur",
+            "dialogue": "L'autoritarisme est un régime où le pouvoir est concentré et non démocratique."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q26",
+        "text": "Quel est le nom du processus par lequel les citoyens peuvent révoquer un élu avant la fin de son mandat, par un vote populaire ?",
+        "answers": ["Le référendum", "L'impeachment", "Le recall", "La motion de censure"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le recall (ou référendum révocatoire) est un mécanisme de démocratie directe qui permet aux électeurs de destituer un élu avant la fin de son mandat, souvent utilisé aux États-Unis.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "Le recall est un outil de démocratie directe pour révoquer un élu."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q26_alt",
+        "text": "Quel est le nom du processus par lequel le parlement peut renverser le gouvernement en votant une motion de défiance ?",
+        "answers": ["Le référendum", "L'impeachment", "Le recall", "La motion de censure"],
+        "correctIndex": 3,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La motion de censure est un mécanisme parlementaire qui permet à l'assemblée législative de manifester sa défiance envers le gouvernement et, si elle est votée, de le renverser.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "La motion de censure est un mécanisme clé des régimes parlementaires."
+          },
+          "public_vote": {
+            "votes": [5, 10, 10, 75]
+          }
+        }
+      },
+      {
+        "id": "dem_q27",
+        "text": "Quel philosophe a théorisé la 'volonté générale' comme expression de l'intérêt commun dans une société démocratique ?",
+        "answers": ["John Locke", "Thomas Hobbes", "Jean-Jacques Rousseau", "Montesquieu"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Jean-Jacques Rousseau, dans 'Du Contrat social', a développé le concept de volonté générale, qui n'est pas la somme des volontés particulières, mais l'expression de l'intérêt commun de la communauté.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La volonté générale est un concept central de la pensée de Rousseau sur la démocratie."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q27_alt",
+        "text": "Quel est le nom du système politique où le chef de l'État est élu au suffrage universel direct et possède des pouvoirs importants, distincts du parlement ?",
+        "answers": ["Le régime parlementaire", "Le régime présidentiel", "Le régime semi-présidentiel", "La monarchie constitutionnelle"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Le régime présidentiel, comme aux États-Unis, est caractérisé par une stricte séparation des pouvoirs, où le président est à la fois chef de l'État et chef du gouvernement, élu indépendamment du parlement.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Le régime présidentiel est celui où le président est élu directement et a des pouvoirs propres."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q28",
+        "text": "Quel est le nom du processus par lequel les citoyens peuvent voter directement sur une proposition de loi ou une question constitutionnelle ?",
+        "answers": ["L'élection", "Le référendum", "L'initiative populaire", "Le plébiscite"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le référendum est un vote populaire direct sur une question législative ou constitutionnelle, permettant aux citoyens d'exercer directement leur souveraineté.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Le référendum est un vote direct du peuple sur une loi."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q28_alt",
+        "text": "Quel terme désigne la doctrine politique qui met l'accent sur la liberté individuelle, la propriété privée et la limitation du pouvoir de l'État ?",
+        "answers": ["Le socialisme", "Le libéralisme", "Le conservatisme", "L'anarchisme"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le libéralisme est une philosophie politique, économique et sociale qui défend la liberté individuelle, la propriété privée et la limitation des pouvoirs de l'État.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Le libéralisme est une doctrine qui valorise la liberté individuelle et un État limité."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q29",
+        "text": "Quel est le nom du système politique où le pouvoir est exercé par le peuple, par l'intermédiaire de représentants élus ?",
+        "answers": ["La monarchie", "L'oligarchie", "La démocratie représentative", "La dictature"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "La démocratie représentative est un régime politique dans lequel les citoyens élisent des représentants pour gouverner en leur nom, par opposition à la démocratie directe.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "La démocratie représentative est le système le plus courant aujourd'hui, avec des élus."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q29_alt",
+        "text": "Quel principe démocratique garantit que les décisions sont prises par la majorité, tout en respectant les droits des minorités ?",
+        "answers": ["La tyrannie de la majorité", "La règle de la majorité", "Le consensus", "L'unanimité"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "La règle de la majorité est un principe fondamental de la démocratie, où les décisions sont prises par plus de la moitié des voix, mais elle doit être tempérée par le respect des droits des minorités.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, historien contemporain",
+            "relation": "Collègue",
+            "dialogue": "La règle de la majorité est essentielle, mais il faut aussi protéger les minorités."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q30",
+        "text": "Quel est le nom du document qui énonce les droits fondamentaux des citoyens et limite le pouvoir de l'État ?",
+        "answers": ["Le code civil", "La constitution", "Le traité international", "La loi organique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La Constitution est la loi suprême d'un État, qui organise les pouvoirs publics, définit leurs compétences et garantit les droits fondamentaux des citoyens.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La Constitution est le texte fondamental qui protège les droits des citoyens."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q30_alt",
+        "text": "Quel principe démocratique garantit que les pouvoirs publics sont soumis à la loi et ne peuvent agir arbitrairement ?",
+        "answers": ["La souveraineté populaire", "La séparation des pouvoirs", "La primauté du droit", "La légitimité démocratique"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La primauté du droit (ou État de droit) signifie que tous, y compris les gouvernants, sont soumis à la loi, garantissant ainsi la sécurité juridique et la protection contre l'arbitraire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "La primauté du droit est un pilier de l'État de droit, personne n'est au-dessus de la loi."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q31",
+        "text": "Quel est le nom du processus par lequel les citoyens peuvent être tirés au sort pour participer à des assemblées délibératives et prendre des décisions ?",
+        "answers": ["Le jury citoyen", "Le panel citoyen", "La convention citoyenne", "Le tirage au sort"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La convention citoyenne est une assemblée de citoyens tirés au sort, chargée de délibérer sur une question d'intérêt général et de formuler des propositions, renforçant la démocratie participative.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Isabelle, spécialiste de l'Europe",
+            "relation": "Amie",
+            "dialogue": "Les conventions citoyennes sont un exemple de démocratie participative par tirage au sort."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q31_alt",
+        "text": "Quel est le nom du système politique où le pouvoir est exercé par le peuple, directement ou indirectement, et où les dirigeants sont élus ?",
+        "answers": ["L'autocratie", "La démocratie", "La théocratie", "L'aristocratie"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La démocratie est un régime politique dans lequel la souveraineté est attribuée au peuple, qui l'exerce soit directement, soit par l'intermédiaire de représentants élus.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Professeur Martin, philosophe",
+            "relation": "Ancien professeur",
+            "dialogue": "La démocratie est le pouvoir du peuple, par le peuple et pour le peuple."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q32",
+        "text": "Quel est le nom du principe selon lequel les citoyens sont libres de croire ou de ne pas croire, et l'État garantit cette liberté sans favoriser aucune religion ?",
+        "answers": ["La théocratie", "Le concordat", "La laïcité", "Le confessionnalisme"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La laïcité est un principe de séparation de la société civile et de la société religieuse, où l'État est neutre vis-à-vis des religions et garantit la liberté de conscience de chacun.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Clara, étudiante en droit",
+            "relation": "Amie",
+            "dialogue": "La laïcité est un principe fondamental de la République française, garantissant la liberté de conscience."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q32_alt",
+        "text": "Quel est le nom du système politique où le pouvoir est détenu par un chef religieux ou une institution religieuse ?",
+        "answers": ["La démocratie", "La monarchie", "La théocratie", "L'oligarchie"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La théocratie est un régime politique où le pouvoir est exercé par une autorité religieuse, qui se considère comme le représentant de Dieu sur Terre, comme en Iran.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "David, professeur de philosophie",
+            "relation": "Mentor",
+            "dialogue": "La théocratie est un régime où le pouvoir est exercé au nom de Dieu."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q33",
+        "text": "Quel est le nom du processus par lequel les citoyens peuvent être consultés sur une question d'intérêt général, sans que le résultat soit nécessairement contraignant ?",
+        "answers": ["Le référendum", "La consultation populaire", "L'initiative populaire", "Le plébiscite"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "La consultation populaire est un processus consultatif où les citoyens sont invités à donner leur avis sur une question, sans que la décision finale soit nécessairement contraignante pour les autorités.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La consultation populaire est un moyen de sonder l'opinion des citoyens, mais sans obligation."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q33_alt",
+        "text": "Quel est le nom du processus par lequel un chef d'État soumet une question au vote populaire, souvent pour renforcer sa légitimité ou contourner le parlement ?",
+        "answers": ["Le référendum", "La consultation populaire", "L'initiative populaire", "Le plébiscite"],
+        "correctIndex": 3,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Le plébiscite est un vote populaire sur une question soumise par un dirigeant, souvent utilisé pour obtenir un soutien direct du peuple et renforcer son pouvoir personnel, comme Napoléon Bonaparte.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Le plébiscite est un outil politique pour un dirigeant cherchant à légitimer son pouvoir."
+          },
+          "public_vote": {
+            "votes": [5, 10, 10, 75]
+          }
+        }
+      },
+      {
+        "id": "dem_q34",
+        "text": "Quel est le nom du principe selon lequel le pouvoir politique doit être exercé dans le respect des lois et des droits fondamentaux ?",
+        "answers": ["L'arbitraire", "La souveraineté", "L'État de droit", "La tyrannie"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "L'État de droit est un concept fondamental de la démocratie, où l'exercice du pouvoir est encadré par des règles juridiques garantissant les libertés individuelles.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "L'État de droit est la garantie que le pouvoir respecte les lois."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q34_alt",
+        "text": "Quel terme désigne la doctrine politique qui met l'accent sur la liberté individuelle, la propriété privée et la limitation du pouvoir de l'État ?",
+        "answers": ["Le socialisme", "Le libéralisme", "Le conservatisme", "L'anarchisme"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le libéralisme est une philosophie politique, économique et sociale qui défend la liberté individuelle, la propriété privée et la limitation des pouvoirs de l'État.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Le libéralisme est une doctrine qui valorise la liberté individuelle et un État limité."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q35",
+        "text": "Quel est le nom du système politique où le pouvoir est exercé par le peuple, directement ou indirectement, et où les dirigeants sont élus ?",
+        "answers": ["La démocratie représentative", "La démocratie directe", "La monarchie constitutionnelle", "La république parlementaire"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "La démocratie directe est un régime politique où les citoyens exercent directement le pouvoir, sans passer par des représentants élus, comme dans l'Athènes antique ou certains cantons suisses.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "La démocratie directe, c'est le peuple qui décide directement, sans élus."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q35_alt",
+        "text": "Quel est le nom du processus par lequel les citoyens peuvent demander l'organisation d'un référendum sur une loi déjà votée par le parlement ?",
+        "answers": ["L'initiative populaire", "Le référendum abrogatif", "Le plébiscite", "La consultation citoyenne"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Le référendum abrogatif est un mécanisme de démocratie directe qui permet aux citoyens de demander l'abrogation d'une loi existante par un vote populaire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, historien contemporain",
+            "relation": "Collègue",
+            "dialogue": "Le référendum abrogatif est un outil de contrôle citoyen sur les lois."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "dem_q36",
+        "text": "Quel est le nom du phénomène où les citoyens se désintéressent de la politique et s'abstiennent de voter ?",
+        "answers": ["La politisation", "La mobilisation", "L'apathie politique", "L'engagement civique"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "L'apathie politique est un état de désintérêt et d'indifférence des citoyens envers la vie politique, se manifestant souvent par une faible participation électorale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "L'apathie politique est un signe de désengagement des citoyens."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "dem_q36_alt",
+        "text": "Quel terme désigne la capacité d'un individu à comprendre et à participer activement à la vie politique de sa société ?",
+        "answers": ["La dépolitisation", "La compétence politique", "L'ignorance politique", "La passivité civique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La compétence politique est la capacité d'un individu à comprendre les enjeux politiques, à évaluer les informations et à prendre des décisions éclairées, favorisant ainsi une participation active et éclairée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, politologue",
+            "relation": "Ancien professeur",
+            "dialogue": "La compétence politique est essentielle pour une démocratie vivante."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      }
+    ]
+  }
+}

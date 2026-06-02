@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO et Métadonnées -->
+  <title>Le Grand Quiz du Millionnaire - Jeu TV Interactif</title>
+  <meta name="description" content="Entrez sur le plateau du Grand Quiz du Millionnaire ! Répondez à 15 questions progressives, utilisez vos jokers stratégiques et tentez de décrocher la cagnotte ultime de 1 000 000 € !">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Favicon (Emoji standard pour portabilité) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>👑</text></svg>">
+  
+  <!-- Feuille de Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PRE-LANDING PAGE -->
+  <div id="pre-landing-screen" class="pre-landing-screen active">
+    <button id="enter-game-btn" class="glow-btn-gold">ENTRER</button>
+  </div>
+
+  <div id="app" class="hidden">
+    
+    <!-- HEADER GLOBAL DE L'APPLICATION -->
+    <header class="app-header">
+      <div class="logo-container">
+        <span class="logo-icon" aria-hidden="true">👑</span>
+        <h1 class="logo-text">MILLIONNAIRE</h1>
+      </div>
+      
+      <div class="sys-controls">
+        <!-- Contrôleur de Volume et Son -->
+        <div class="volume-control">
+          <button id="btn-mute" class="sys-btn" title="Activer / Désactiver le son" aria-label="Couper le son">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+              <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            </svg>
+          </button>
+          <input type="range" id="slider-volume" class="volume-slider" min="0" max="1" step="0.05" value="0.5" title="Ajuster le volume" aria-label="Ajuster le volume">
+        </div>
+        
+        <!-- Plein Écran -->
+        <button id="btn-fullscreen" class="sys-btn" title="Basculer plein écran" aria-label="Plein écran">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ÉCRAN 1 : ÉCRAN D'ACCUEIL (SELECTION DE PACK) -->
+    <main id="screen-home" class="screen active">
+      <div class="welcome-card">
+        <h2 class="welcome-title">Bienvenue sur le Plateau !</h2>
+        <p class="welcome-subtitle">
+          Mesurez-vous à l'ultime défi de culture générale. Répondez correctement à une série de 15 questions à choix multiples de difficulté croissante. Aurez-vous assez de sang-froid pour franchir les paliers de sécurité et remporter le million ?
+        </p>
+        
+        <!-- Boîtes à fonctionnalités -->
+        <div class="welcome-features">
+          <div class="feature-box">
+            <span class="feature-icon">⏳</span>
+            <h3>Timer Serré</h3>
+            <p>Le temps est compté sur chaque question !</p>
+          </div>
+          <div class="feature-box">
+            <span class="feature-icon">🃏</span>
+            <h3>4 Jokers</h3>
+            <p>50/50, public, appel ami et switch à utiliser au bon moment.</p>
+          </div>
+          <div class="feature-box">
+            <span class="feature-icon">🔒</span>
+            <h3>Paliers Garantis</h3>
+            <p>Assurez vos gains aux paliers 5 et 10 de l'échelle.</p>
+          </div>
+        </div>
+
+        <!-- Sélection du thème / pack de questions -->
+        <div class="theme-selector-box" style="margin-bottom: 1.5rem; width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 0.5rem; text-align: left; margin: 0 auto 1.5rem auto;">
+          <label for="select-theme" style="font-family: 'Orbitron', sans-serif; font-size: 0.8rem; color: var(--gold-accent); letter-spacing: 1.5px; text-transform: uppercase;">Choisir le Thème :</label>
+          <select id="select-theme" style="background: var(--bg-medium); color: var(--text-main); border: 1px solid var(--border-gold); padding: 0.8rem 1.2rem; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem; width: 100%; outline: none; cursor: pointer; box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: all 0.3s ease;">
+            <option value="./data/culture-generale.json">🌍 Culture Générale (Défaut)</option>
+            <optgroup label="HGGSP Spécialité — Première">
+              <option value="./data/democratie.json">⚖️ Thème 1 — La Démocratie</option>
+              <option value="./data/puissances.json">🌐 Thème 2 — Les Puissances</option>
+              <option value="./data/frontieres.json">🗺️ Thème 3 — Les Frontières</option>
+              <option value="./data/sinformer.json">📰 Thème 4 — S'informer : regard critique</option>
+              <option value="./data/religions.json">🕌 Thème 5 — États et Religions</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- Boutons d'Action & Importation -->
+        <div class="btn-group">
+          <button id="btn-load-default" class="glow-btn-gold">Lancer la Partie</button>
+          
+          <button id="btn-load-custom" class="outline-btn">Importer un Pack JSON</button>
+          <input type="file" id="file-input-pack" accept=".json" style="display: none;">
+          <p class="upload-info">Glissez-déposez ou chargez un fichier JSON respectant le format requis.</p>
+        </div>
+
+        <!-- Rapport de Validation -->
+        <div id="validation-report"></div>
+      </div>
+    </main>
+
+    <!-- ÉCRAN 2 : PLATEAU DE JEU ACTIF -->
+    <main id="screen-game" class="screen">
+      <div class="game-layout">
+        
+        <!-- Zone centrale : Plateau TV -->
+        <div class="stage-area">
+          
+          <!-- Barre de statut supérieure -->
+          <div class="stage-status-bar">
+            <div class="status-info">
+              <span class="status-lbl">Gains cumulés</span>
+              <div id="game-gain-accumulated" class="status-val">0 €</div>
+            </div>
+            <div class="status-info" style="text-align: right;">
+              <span class="status-lbl">Progression</span>
+              <div id="game-level-indicator" class="status-val">Niveau 1 / 15</div>
+            </div>
+          </div>
+          
+          <!-- Le Chronomètre Visuel -->
+          <div class="timer-arena">
+            <div id="timer-box" class="timer-container" aria-live="polite">
+              <!-- Rempli dynamiquement en SVG -->
+            </div>
+          </div>
+          
+          <!-- Le Bloc de Question et Réponses -->
+          <div class="quiz-board">
+            <!-- La question -->
+            <div class="question-card">
+              <p id="question-text">Chargement de la question...</p>
+            </div>
+            
+            <!-- Les 4 boutons de réponse -->
+            <div class="answers-grid" role="group" aria-label="Réponses possibles">
+              <button id="btn-ans-0" class="answer-btn" aria-describedby="question-text">
+                <span class="ans-letter">A</span>
+                <span class="ans-text">Réponse A</span>
+              </button>
+              
+              <button id="btn-ans-1" class="answer-btn" aria-describedby="question-text">
+                <span class="ans-letter">B</span>
+                <span class="ans-text">Réponse B</span>
+              </button>
+              
+              <button id="btn-ans-2" class="answer-btn" aria-describedby="question-text">
+                <span class="ans-letter">C</span>
+                <span class="ans-text">Réponse C</span>
+              </button>
+              
+              <button id="btn-ans-3" class="answer-btn" aria-describedby="question-text">
+                <span class="ans-letter">D</span>
+                <span class="ans-text">Réponse D</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Contrôles inférieurs (Jokers + Abandon) -->
+          <div class="bottom-controls-bar">
+            <div class="lifelines-wrapper">
+              <span class="lifelines-lbl">Jokers</span>
+              <div id="lifelines-container">
+                <!-- Rempli dynamiquement avec les boutons de jokers -->
+              </div>
+            </div>
+            
+            <button id="btn-walk-away" class="outline-btn" style="border-color:#e74c3c; color:#e74c3c;">Partir avec mes gains</button>
+          </div>
+          
+        </div>
+
+        <!-- Zone droite : L'Échelle des Gains (Palier de gains) -->
+        <aside class="ladder-area" aria-label="Échelle des Gains">
+          <h2 class="ladder-title">Échelle des Gains</h2>
+          <ul id="ladder-list">
+            <!-- Rempli dynamiquement -->
+          </ul>
+        </aside>
+
+      </div>
+    </main>
+
+    <!-- ÉCRAN 3 : VICTOIRE / DEFAITE (FIN DE PARTIE) -->
+    <main id="screen-result" class="screen">
+      <div class="result-card">
+        <h2 id="result-title">Fin de partie</h2>
+        
+        <div class="result-gain-box">
+          <span class="gain-lbl">Vous repartez avec</span>
+          <div id="result-gain-value">0 €</div>
+        </div>
+
+        <p id="result-description">Description du résultat de votre partie.</p>
+        
+        <div class="btn-group">
+          <button class="glow-btn-gold btn-restart">Rejouer</button>
+          <button class="outline-btn btn-restart">Retour à l'accueil</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- MODALE 1 : EXPLICATIONS POST-RÉPONSE -->
+    <div id="modal-explanation" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="explanation-modal-title">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2 id="explanation-modal-title">RÉVÉLATION</h2>
+        </div>
+        <div class="modal-body">
+          <div class="exp-banner">VÉRDICT</div>
+          <div class="exp-header">Bravo / Échec</div>
+          <div id="explanation-text">Explication détaillée...</div>
+        </div>
+        <div class="modal-footer">
+          <button id="btn-next-level" class="glow-btn-gold">Continuer</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALE 2 : INTERACTION DU JOKER ACTIF (AMI / PUBLIC) -->
+    <div id="modal-joker" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-joker-title">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2 id="modal-joker-title">Joker</h2>
+          <button id="btn-modal-joker-close" class="sys-btn" title="Fermer" aria-label="Fermer la modale">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"/>
+              <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body" id="modal-joker-content">
+          <!-- Rempli dynamiquement (dialogue d'ami ou barres de public) -->
+        </div>
+        <div class="modal-footer">
+          <button id="btn-modal-joker-close-footer" class="outline-btn" onclick="document.getElementById('btn-modal-joker-close').click()">Reprendre le jeu</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Script Principal de l'Application -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

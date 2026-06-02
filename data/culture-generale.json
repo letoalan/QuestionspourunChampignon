@@ -1,0 +1,640 @@
+{
+  "version": "1.1",
+  "game": {
+    "title": "Le Grand Quiz du Millionnaire",
+    "theme": "Culture Générale",
+    "currency": "€",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Quel animal est connu pour avoir une bosse (ou deux) et vivre dans le désert ?",
+        "answers": ["Le lion", "Le chameau", "Le dauphin", "L'aigle"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le chameau possède deux bosses (contrairement au dromadaire qui n'en a qu'une) et vit dans les zones arides.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, zoologiste",
+            "relation": "Amie",
+            "dialogue": "Le chameau est l'animal du désert par excellence, avec ses bosses pour stocker la graisse."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "q1_alt",
+        "text": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+        "answers": ["Le violet", "Le orange", "Le vert", "Le marron"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le bleu et le jaune sont des couleurs primaires qui, mélangées, produisent la couleur secondaire verte.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, artiste peintre",
+            "relation": "Ancien professeur",
+            "dialogue": "Bleu et jaune donnent toujours du vert, c'est la base de la théorie des couleurs."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q2",
+        "text": "Combien de minutes y a-t-il dans une heure complète ?",
+        "answers": ["30", "50", "60", "100"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Une heure est réglementée par le système sexagésimal et se compose de 60 minutes de 60 secondes.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante",
+            "relation": "Cousine",
+            "dialogue": "Il y a 60 minutes dans une heure, c'est facile !"
+          },
+          "public_vote": {
+            "votes": [5, 5, 85, 5]
+          }
+        }
+      },
+      {
+        "id": "q2_alt",
+        "text": "Dans quel sport utilise-t-on un volant et une raquette ?",
+        "answers": ["Le tennis", "Le badminton", "Le ping-pong", "Le squash"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Le badminton se joue avec un volant (composé de plumes ou plastique) et une raquette légère.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, sportif",
+            "relation": "Ami",
+            "dialogue": "Un volant et une raquette, c'est le badminton, sans hésiter."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "q3",
+        "text": "Quel pays a pour capitale la ville de Rome, célèbre pour son Colisée ?",
+        "answers": ["L'Espagne", "La France", "La Grèce", "L'Italie"],
+        "correctIndex": 3,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "Rome est la capitale de l'Italie et abrite de grands monuments antiques comme le Colisée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Rome est la capitale de l'Italie, c'est une évidence."
+          },
+          "public_vote": {
+            "votes": [5, 5, 5, 85]
+          }
+        }
+      },
+      {
+        "id": "q3_alt",
+        "text": "Quel personnage de conte a le nez qui s'allonge lorsqu'il ment ?",
+        "answers": ["Cendrillon", "Pinocchio", "Aladin", "Peter Pan"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "Pinocchio, le pantin de bois créé par Geppetto, voit son nez s'allonger à chaque mensonge.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, conteur",
+            "relation": "Ancien professeur",
+            "dialogue": "C'est Pinocchio, le pantin qui ment."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "q4",
+        "text": "Quel organe humain est responsable de la circulation sanguine en agissant comme une pompe ?",
+        "answers": ["Le poumon", "Le foie", "Le cerveau", "Le cœur"],
+        "correctIndex": 3,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "Le cœur est un muscle creux qui propulse le sang à travers tout le réseau de vaisseaux sanguins.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en médecine",
+            "relation": "Cousine",
+            "dialogue": "Le cœur est la pompe du corps, il assure la circulation sanguine."
+          },
+          "public_vote": {
+            "votes": [5, 5, 5, 85]
+          }
+        }
+      },
+      {
+        "id": "q4_alt",
+        "text": "Quel est le nom du satellite naturel de la Terre ?",
+        "answers": ["Mars", "La Lune", "Vénus", "Titan"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "La Lune est le seul satellite naturel de la Terre, visible la nuit par réflexion de la lumière solaire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, astronome amateur",
+            "relation": "Ami",
+            "dialogue": "La Lune est le satellite naturel de la Terre, c'est une question simple."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "q5",
+        "text": "Qui a peint la célèbre Joconde exposée au musée du Louvre ?",
+        "answers": ["Claude Monet", "Vincent van Gogh", "Léonard de Vinci", "Pablo Picasso"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "Léonard de Vinci a peint le portrait de Mona Lisa (La Joconde) au début du XVIe siècle.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne de l'art",
+            "relation": "Amie d'enfance",
+            "dialogue": "La Joconde est l'œuvre de Léonard de Vinci, un chef-d'œuvre de la Renaissance."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q5_alt",
+        "text": "Quel océan sépare l'Europe du continent américain ?",
+        "answers": ["L'océan Indien", "L'océan Atlantique", "L'océan Pacifique", "L'océan Arctique"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "L'océan Atlantique sépare l'Europe et l'Afrique à l'est, des Amériques à l'ouest.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, géographe",
+            "relation": "Ancien professeur",
+            "dialogue": "L'océan Atlantique est celui qui sépare l'Europe des Amériques."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q6",
+        "text": "Dans quelle mythologie trouve-t-on le dieu de la foudre nommé Zeus ?",
+        "answers": ["La mythologie romaine", "La mythologie égyptienne", "La mythologie grecque", "La mythologie nordique"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Zeus est le roi des dieux du mont Olympe et le maître du ciel et de la foudre dans la mythologie grecque.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en lettres classiques",
+            "relation": "Cousine",
+            "dialogue": "Zeus est le dieu principal de la mythologie grecque."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q6_alt",
+        "text": "Quelle planète du système solaire est surnommée la planète rouge ?",
+        "answers": ["Vénus", "Mars", "Jupiter", "Mercure"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Mars doit sa couleur rouge caractéristique à la présence d'oxyde de fer (rouille) à sa surface.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, astronome amateur",
+            "relation": "Ami",
+            "dialogue": "La planète rouge, c'est Mars, à cause de son sol riche en fer oxydé."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q7",
+        "text": "En quelle année s'est déroulée la Révolution française, marquée par la prise de la Bastille ?",
+        "answers": ["1492", "1789", "1815", "1914"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La Révolution française a commencé en 1789 avec la prise de la Bastille le 14 juillet de cette année.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La Révolution française a débuté en 1789 avec la prise de la Bastille."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "q7_alt",
+        "text": "Quel écrivain français est l'auteur du célèbre roman d'aventures 'Les Trois Mousquetaires' ?",
+        "answers": ["Victor Hugo", "Émile Zola", "Alexandre Dumas", "Gustave Flaubert"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Alexandre Dumas (père) a publié 'Les Trois Mousquetaires' en feuilleton en 1844.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, conteur",
+            "relation": "Ancien professeur",
+            "dialogue": "Alexandre Dumas est l'auteur des Trois Mousquetaires, un classique de la littérature."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "q8",
+        "text": "Quel élément chimique a pour symbole 'O' et est indispensable à notre respiration ?",
+        "answers": ["L'Or", "Le Carbone", "L'Azote", "L'Oxygène"],
+        "correctIndex": 3,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "L'oxygène (dioxygène sous sa forme moléculaire) a le symbole O et compose 21% de notre atmosphère.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en médecine",
+            "relation": "Cousine",
+            "dialogue": "L'oxygène est l'élément O, essentiel à la vie et à la respiration."
+          },
+          "public_vote": {
+            "votes": [5, 5, 5, 85]
+          }
+        }
+      },
+      {
+        "id": "q8_alt",
+        "text": "Quel célèbre détroit sépare l'Espagne du Maroc (et donc l'Europe de l'Afrique) ?",
+        "answers": ["Le détroit de Gibraltar", "Le détroit de Magellan", "Le détroit de Béring", "Le canal de Suez"],
+        "correctIndex": 0,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le détroit de Gibraltar fait environ 14 kilomètres de large à son point le plus étroit et relie l'Atlantique à la Méditerranée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, géographe",
+            "relation": "Ami",
+            "dialogue": "Le détroit de Gibraltar est la porte entre l'Europe et l'Afrique."
+          },
+          "public_vote": {
+            "votes": [80, 5, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q9",
+        "text": "Dans quelle ville peut-on visiter la célèbre cathédrale de la Sagrada Família, conçue par Antoni Gaudí ?",
+        "answers": ["Madrid", "Barcelone", "Séville", "Valence"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "La Sagrada Família est une basilique emblématique de Barcelone en Espagne, commencée en 1882.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne de l'art",
+            "relation": "Amie d'enfance",
+            "dialogue": "La Sagrada Família est à Barcelone, c'est l'œuvre inachevée de Gaudí."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "q9_alt",
+        "text": "Quel scientifique a formulé la théorie de la relativité générale en 1915 ?",
+        "answers": ["Isaac Newton", "Albert Einstein", "Galilée", "Marie Curie"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Albert Einstein a révolutionné la physique moderne avec ses théories de la relativité restreinte et générale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, physicien",
+            "relation": "Ancien professeur",
+            "dialogue": "Albert Einstein, avec sa théorie de la relativité, a changé notre compréhension de l'univers."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q10",
+        "text": "Quel est le plus grand océan du globe terrestre en termes de superficie ?",
+        "answers": ["L'océan Atlantique", "L'océan Indien", "L'océan Pacifique", "L'océan Arctique"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "L'océan Pacifique couvre environ un tiers de la surface terrestre globale, soit plus que toutes les terres émergées réunies.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante",
+            "relation": "Cousine",
+            "dialogue": "Le Pacifique est le plus grand océan, il couvre une immense partie de la Terre."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q10_alt",
+        "text": "Combien d'États compte officiellement l'Union européenne depuis le départ du Royaume-Uni (Brexit) ?",
+        "answers": ["25", "27", "28", "30"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Depuis la sortie effective du Royaume-Uni en 2020, l'Union européenne comprend 27 États membres.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Ami",
+            "dialogue": "Après le Brexit, l'UE compte 27 États membres."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q11",
+        "text": "Quelle dynastie régnait en France lors de la construction du château de Versailles ?",
+        "answers": ["Les Mérovingiens", "Les Capétiens", "Les Bourbons", "Les Bonaparte"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Louis XIV, membre de la dynastie des Bourbons, a transformé le pavillon de chasse de Versailles en une résidence royale splendide.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Versailles, c'est l'époque des Bourbons, avec Louis XIV."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q11_alt",
+        "text": "Quel célèbre opéra a été composé par Wolfgang Amadeus Mozart sur un livret de Lorenzo da Ponte ?",
+        "answers": ["La Flûte enchantée", "Don Giovanni", "Carmen", "La Traviata"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Don Giovanni (1787) fait partie des opéras majeurs nés de la collaboration de Mozart avec le librettiste Lorenzo da Ponte.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, musicologue",
+            "relation": "Ancien professeur",
+            "dialogue": "Don Giovanni est un des opéras les plus célèbres de Mozart."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q12",
+        "text": "Quel écrivain irlandais a rédigé le célèbre et complexe roman moderniste 'Ulysse' publié en 1922 ?",
+        "answers": ["Oscar Wilde", "Samuel Beckett", "James Joyce", "William Butler Yeats"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "James Joyce a écrit Ulysse, retraçant les pérégrinations de Leopold Bloom à Dublin le 16 juin 1904 (Bloomsday).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en littérature",
+            "relation": "Cousine",
+            "dialogue": "Ulysse est l'œuvre majeure de James Joyce, un roman très influent."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q12_alt",
+        "text": "Qui fut le premier homme à effectuer un vol dans l'espace en 1961 ?",
+        "answers": ["Neil Armstrong", "Yuri Gagarine", "Buzz Aldrin", "John Glenn"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Le cosmonaute soviétique Yuri Gagarine a accompli une orbite terrestre le 12 avril 1961 à bord de Vostok 1.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, astrophysicien",
+            "relation": "Ami",
+            "dialogue": "Yuri Gagarine a été le premier homme dans l'espace, un moment historique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q13",
+        "text": "Quel est le nom de la particule élémentaire théorisée en 1964 et découverte au CERN en 2012, conférant leur masse aux autres particules ?",
+        "answers": ["Le quark top", "Le neutrino", "Le boson de Higgs", "Le graviton"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le boson de Brout-Englert-Higgs est la manifestation du champ de Higgs qui attribue une masse aux particules élémentaires.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, physicienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Le boson de Higgs, c'est la particule qui donne leur masse aux autres particules."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q13_alt",
+        "text": "Quel fleuve traverse la ville de Vienne, Budapest et Belgrade avant de se jeter dans la mer Noire ?",
+        "answers": ["Le Rhin", "La Seine", "La Volga", "Le Danube"],
+        "correctIndex": 3,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le Danube est le deuxième plus long fleuve d'Europe. Il traverse ou longe dix pays différents de la Forêt-Noire à la mer Noire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, géographe",
+            "relation": "Ancien professeur",
+            "dialogue": "Le Danube est le fleuve qui traverse toutes ces capitales européennes."
+          },
+          "public_vote": {
+            "votes": [5, 5, 10, 80]
+          }
+        }
+      },
+      {
+        "id": "q14",
+        "text": "Dans quelle mer du globe se jette le fleuve Jourdain, célèbre pour sa salinité extrême empêchant toute vie poissonneuse ?",
+        "answers": ["La mer Noire", "La mer Rouge", "La mer Morte", "La mer Caspienne"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La mer Morte est un lac salé alimenté par le Jourdain. Sa salinité avoisine les 27,5% (environ 8,6 fois le taux des océans).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, étudiante en médecine",
+            "relation": "Cousine",
+            "dialogue": "La mer Morte est connue pour sa salinité extrême, on y flotte sans effort."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q14_alt",
+        "text": "Quel philosophe grec ancien a écrit la 'République' et a été l'élève de Socrate et le maître d'Aristote ?",
+        "answers": ["Platon", "Épicure", "Héraclite", "Zénon"],
+        "correctIndex": 0,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Platon a consigné une grande partie des enseignements de son maître Socrate et a fondé l'Académie où étudia Aristote.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur de philosophie",
+            "relation": "Ami",
+            "dialogue": "Platon est l'auteur de la République et le disciple de Socrate."
+          },
+          "public_vote": {
+            "votes": [80, 5, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "q15",
+        "text": "Quelle est la capitale de l'Australie ?",
+        "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "La capitale fédérale de l'Australie est Canberra, choisie en 1908 comme compromis entre les rivales Sydney et Melbourne.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie d'enfance",
+            "dialogue": "La capitale de l'Australie est Canberra, beaucoup se trompent avec Sydney."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "q15_alt",
+        "text": "Qui fut le concepteur principal du langage de programmation C et le co-créateur du système d'exploitation Unix ?",
+        "answers": ["Alan Turing", "Dennis Ritchie", "Linus Torvalds", "Grace Hopper"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Dennis Ritchie a créé le langage C aux Laboratoires Bell au début des années 70 et a co-développé Unix avec Ken Thompson.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, développeur",
+            "relation": "Ancien professeur",
+            "dialogue": "Dennis Ritchie est le père du langage C et un pionnier d'Unix."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      }
+    ]
+  }
+}

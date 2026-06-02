@@ -1,0 +1,1144 @@
+{
+  "version": "1.3",
+  "game": {
+    "title": "HGGSP Spécialité - Les Frontières",
+    "theme": "Étudier les divisions politiques du monde : les Frontières (Première)",
+    "currency": "points",
+    "questions": [
+      {
+        "id": "front_q1",
+        "text": "Comment le géographe Michel Foucher qualifie-t-il le phénomène récent de multiplication et de durcissement des frontières dans le monde ?",
+        "answers": ["La défrontiérisation", "La refrontiérisation", "La mondialisation linéaire", "L'isobarisation"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Michel Foucher utilise le terme de 'refrontiérisation' pour désigner le retour marqué des frontières physiques, murs et contrôles, face aux promesses d'un monde sans frontières de la mondialisation.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "Michel Foucher parle de 'refrontiérisation', c'est un concept clé."
+          },
+          "public_vote": {
+            "votes": [10, 80, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q1_alt",
+        "text": "Quelle frontière matérialisée par un mur est souvent citée comme l'exemple majeur d'une frontière asymétrique de type 'barrière' entre deux géants d'Amérique ?",
+        "answers": ["États-Unis / Canada", "Brésil / Argentine", "États-Unis / Mexique", "Chili / Pérou"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "La frontière entre les États-Unis et le Mexique est l'un des exemples les plus emblématiques et étudiés de frontière-barrière asymétrique fortement surveillée et en partie murée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "La frontière États-Unis/Mexique est l'exemple le plus frappant de frontière-barrière."
+          },
+          "public_vote": {
+            "votes": [5, 10, 75, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q2",
+        "text": "Dans l'Antiquité, quel terme d'origine romaine désignait le système défensif et de délimitation de l'Empire face au monde considéré comme barbare ?",
+        "answers": ["Le limes", "La muraille", "Le cardo", "La frontière de papier"],
+        "correctIndex": 0,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Le limes désigne la frontière fortifiée et surveillée de l'Empire romain, qui séparait le monde romanisé de la Germanie ou d'autres territoires.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le limes, c'était la frontière fortifiée de l'Empire romain."
+          },
+          "public_vote": {
+            "votes": [85, 5, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q2_alt",
+        "text": "Sur quel fleuve d'Europe s'adossait principalement le système fortifié défensif romain (le limes) face aux peuples germains ?",
+        "answers": ["Le Danube", "Le Rhin", "La Seine", "Le Rhône"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "Le limes rhénan s'adossait sur le fleuve du Rhin, qui servait à la fois de voie de circulation romaine et d'obstacle naturel complété de fortins.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, archéologue",
+            "relation": "Collègue",
+            "dialogue": "Le Rhin était une frontière naturelle majeure pour les Romains."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q3",
+        "text": "Quelle conférence internationale, tenue de 1884 à 1885, est devenue le symbole diplomatique du 'partage de l'Afrique' par les puissances européennes ?",
+        "answers": ["La conférence de Paris", "La conférence de Berlin", "Le congrès de Vienne", "La conférence de Potsdam"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "La conférence de Berlin (15 novembre 1884 - 26 février 1885) a fixé les règles de la colonisation et du partage des sphères d'influence sur le continent africain.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "La conférence de Berlin est le symbole du partage colonial de l'Afrique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q3_alt",
+        "text": "Quel surnom critique donne-t-on aux frontières coloniales géométriques tracées arbitrairement en cabinet diplomatique sans connaissance réelle du terrain ?",
+        "answers": ["Frontières naturelles", "Frontières de papier (ou de chancellerie)", "Limes", "ZEE"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "L'expression 'frontières de papier' ou 'frontières de chancellerie' renvoie au caractère rectiligne et artificiel des limites tracées sur carte par les diplomates européens.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "On parle de 'frontières de papier' pour les tracés coloniaux arbitraires."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q4",
+        "text": "Le long de quel parallèle géographique s'est structurée la ligne de démarcation et de cessez-le-feu de 1953 séparant les deux Corées ?",
+        "answers": ["Le 17e parallèle", "Le 38e parallèle", "Le 49e parallèle", "L'Équateur"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "La frontière intercoréenne (DMZ) s'est stabilisée et fortifiée aux alentours du 38e parallèle nord, là où le front de la guerre de Corée s'est fixé en 1953.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "La DMZ coréenne est le long du 38e parallèle."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q4_alt",
+        "text": "Quel acronyme anglais désigne la zone tampon de stricte séparation militaire de 4 km de large qui coupe la péninsule coréenne en deux ?",
+        "answers": ["JSA", "DMZ", "UNSC", "ZEE"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "La DMZ (DeMilitarized Zone ou zone démilitarisée) s'étend sur 248 km de long et 4 km de large (2 km de chaque côté de la ligne de démarcation militaire).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, archéologue",
+            "relation": "Collègue",
+            "dialogue": "C'est la DMZ, la zone démilitarisée entre les deux Corées."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q5",
+        "text": "Quelles deux rivières/fleuves d'Europe centrale composent la ligne frontalière germano-polonaise établie après la Seconde Guerre mondiale ?",
+        "answers": ["Le Rhin et la Meuse", "La Vistule et le Danube", "L'Oder et la Neisse", "L'Elbe et la Seine"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "La frontière germano-polonaise suit la ligne Oder-Neisse, constituée par le fleuve Oder et son affluent la rivière Neisse.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "La frontière Oder-Neisse, c'est un classique de la géopolitique européenne."
+          },
+          "public_vote": {
+            "votes": [5, 10, 75, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q5_alt",
+        "text": "Dans quelle ville de Jamaïque a été adoptée en 1982 la Convention des Nations Unies sur le droit de la mer (CNUDM) ?",
+        "answers": ["Kingston", "Montego Bay", "Nassau", "Port-au-Prince"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "La Convention des Nations Unies sur le droit de la mer (CNUDM) est communément appelée Convention de Montego Bay, adoptée en 1982.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "La Convention de Montego Bay, c'est le nom de la ville où elle a été adoptée."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q6",
+        "text": "Dans quel accord signé en 1950 la République démocratique allemande (RDA) a-t-elle reconnu la ligne Oder-Neisse comme une 'frontière de la paix' ?",
+        "answers": ["Le protocole de Londres", "Le traité de Varsovie", "L'accord de Görlitz", "Le traité de Moscou (4+2)"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Sous influence soviétique, la RDA conclut le 6 juillet 1950 l'accord de Görlitz (ville coupée en deux par le tracé) reconnaissant la ligne comme 'frontière de la paix'.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "L'accord de Görlitz a officialisé la ligne Oder-Neisse pour la RDA."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q6_alt",
+        "text": "Quel chancelier ouest-allemand a initié en 1970 l'Ostpolitik, ouvrant la voie à la reconnaissance diplomatique de la frontière polonaise par le traité de Varsovie ?",
+        "answers": ["Konrad Adenauer", "Helmut Kohl", "Willy Brandt", "Angela Merkel"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "L'Ostpolitik engagée par le chancelier Willy Brandt a permis d'amorcer la détente et de signer le traité de Varsovie en décembre 1970 avec la Pologne.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "Willy Brandt et son Ostpolitik ont été déterminants pour la reconnaissance des frontières."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q7",
+        "text": "Quel traité international de septembre 1990 (dit 4+2) a scellé le caractère définitif et intangible des frontières de l'Allemagne réunifiée ?",
+        "answers": ["Le traité de Versailles", "Le traité de Moscou", "La conférence de Potsdam", "Les accords de Schengen"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Le traité de Moscou du 12 septembre 1990 (signé par les vainqueurs de 1945 et les deux Allemagnes) règle obligatoirement le statut définitif des frontières de l'Allemagne Unie.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "Le traité de Moscou (4+2) a officialisé les frontières de l'Allemagne réunifiée."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q7_alt",
+        "text": "En quelle année est entrée en vigueur la Convention de Montego Bay (CNUDM), après plus de 20 ans de négociations difficiles ?",
+        "answers": ["1958", "1973", "1982", "1994"],
+        "correctIndex": 3,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Bien qu'adoptée en 1982, la convention de Montego Bay est entrée en vigueur en 1994 après avoir réuni les ratifications nécessaires.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "La CNUDM est entrée en vigueur en 1994, après une longue période de ratification."
+          },
+          "public_vote": {
+            "votes": [5, 10, 10, 75]
+          }
+        }
+      },
+      {
+        "id": "front_q8",
+        "text": "Selon la CNUDM, quelle zone s'étend jusqu'à 200 milles marins et accorde à l'État côtier des droits souverains économiques sur les ressources du sous-sol et de l'eau ?",
+        "answers": ["Les eaux territoriales", "La zone contiguë", "La Zone Économique Exclusive (ZEE)", "La haute mer"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "La ZEE s'étend jusqu'à 200 milles marins (environ 370 km). L'État y dispose de l'exclusivité de l'exploitation économique (pêche, pétrole, éolien) sans souveraineté politique complète.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "La ZEE, c'est la zone où l'État a des droits économiques exclusifs."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q8_alt",
+        "text": "Quelle est la largeur maximale de la zone des 'eaux territoriales' d'un État, où s'applique sa pleine souveraineté sous réserve du droit de passage inoffensif des navires ?",
+        "answers": ["3 milles marins", "12 milles marins", "24 milles marins", "200 milles marins"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Les eaux territoriales s'étendent jusqu'à 12 milles marins (environ 22 km) à partir de la ligne de base.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, archéologue",
+            "relation": "Collègue",
+            "dialogue": "Les eaux territoriales s'étendent sur 12 milles marins."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q9",
+        "text": "Quel groupe de pays de l'Est (Pologne, Hongrie, Tchéquie, Slovaquie) défend des politiques de filtrage migratoire très strictes aux frontières de l'Union européenne ?",
+        "answers": ["Le Benelux", "Le groupe de Visegrád", "La ligue hanséatique", "L'Europe des six"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Le groupe de Visegrád (V4) coordonne ses positions politiques et s'oppose régulièrement aux quotas de répartition des migrants au sein de l'UE.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "Le groupe de Visegrád est connu pour ses positions fermes sur l'immigration."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q9_alt",
+        "text": "Quelles deux enclaves espagnoles situées sur la côte nord du Maroc matérialisent physiquement la frontière externe fortifiée de l'espace Schengen en Afrique ?",
+        "answers": ["Tanger et Ceuta", "Ceuta et Melilla", "Gibratar et Melilla", "Canaries et Madère"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Ceuta et Melilla sont des villes autonomes espagnoles enclavées au Maroc, entourées de hauts grillages équipés de capteurs de haute technologie.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "Ceuta et Melilla sont les deux enclaves espagnoles au Maroc, des frontières très surveillées."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q10",
+        "text": "Quelle infrastructure transfrontalière majeure, ouverte en 2018 et longue de 55 km, illustre le dépassement physique des frontières maritimes d'Hong Kong ?",
+        "answers": ["Le pont Hong Kong-Zhuhai-Macao", "Le tunnel sous la Manche", "Le pont de l'Oyapock", "Le canal de Panama"],
+        "correctIndex": 0,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Inauguré en 2018, ce pont gigantesque de 55 km relie Hong Kong, Macao et la Chine continentale (Zhuhai), facilitant l'intégration de la 'Grande Baie'.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le pont Hong Kong-Zhuhai-Macao est une prouesse d'ingénierie qui relie ces territoires."
+          },
+          "public_vote": {
+            "votes": [70, 10, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q10_alt",
+        "text": "Quelle agence de l'Union européenne est chargée de la coordination et du contrôle des frontières extérieures de l'espace Schengen ?",
+        "answers": ["Europol", "Frontex", "Eurostat", "L'OTAN"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Frontex (l'Agence européenne de garde-frontières et de garde-côtes) a vu ses effectifs et son budget croître fortement à la suite des crises migratoires.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "Frontex est l'agence européenne des frontières, son rôle est très discuté."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q11",
+        "text": "En quelle année s'est produit l'effondrement militaire romain sur le limes rhénan, lorsque les Germains ont définitivement chassé les Romains de la rive droite du Rhin ?",
+        "answers": ["52 av. J.-C.", "260 apr. J.-C.", "476 apr. J.-C.", "800 apr. J.-C."],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "L'année 260 après J.-C. marque un tournant historique avec la chute des Champs Décumates et le repli définitif de l'administration romaine sur la rive gauche du Rhin.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "L'effondrement du limes rhénan, c'est en 260 après J.-C."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q11_alt",
+        "text": "Au IIe siècle apr. J.-C., quelle était la longueur totale estimée du limes fortifié rhénan assurant la défense de la Germanie supérieure et de la Rhétie ?",
+        "answers": ["12 kilomètres", "248 kilomètres", "550 kilomètres", "3000 kilomètres"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Le limes de Germanie supérieure et de Rhétie s'étendait sur environ 550 km, jalonné de forts, de palissades de bois et de tours de guet.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "Le limes rhénan était très long, environ 550 kilomètres."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q12",
+        "text": "Quel instrument de gouvernance transfrontalière l'Union européenne promeut-elle pour structurer la coopération et le développement quotidien entre régions frontalières ?",
+        "answers": ["Frontex", "Le GECT (Groupement Européen de Coopération Territoriale)", "Le droit de passage inoffensif", "Le traité de Montego Bay"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Le GECT permet à des collectivités de différents États membres de s'associer pour gérer des services publics communs (hôpitaux, transports) sans nécessiter d'accord bilatéral étatique lourd.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le GECT est un outil européen pour la coopération transfrontalière."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q12_alt",
+        "text": "À la frontière franco-brésilienne, sur quel fleuve frontalier le pont reliant la Guyane française au Brésil (Oyapock) a-t-il été construit, matérialisant un rapprochement ?",
+        "answers": ["L'Amazone", "L'Oyapock", "Le Maroni", "Le Rhin"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Le pont sur l'Oyapock relie la ville guyanaise de Saint-Georges de l'Oyapock à la ville brésilienne d'Oiapoque, marquant la limite sud-est du territoire français.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, archéologue",
+            "relation": "Collègue",
+            "dialogue": "Le pont de l'Oyapock, c'est un symbole de la coopération entre la Guyane et le Brésil."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q13",
+        "text": "Dans la zone de la DMZ coréenne, quel nom (JSA) désigne l'enclave hautement sécurisée où se font face en permanence les baraquements bleus des Nations unies ?",
+        "answers": ["Panmunjom (ou Joint Security Area)", "Seoul Boundary", "civilian control line", "Northern Limit Line"],
+        "correctIndex": 0,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La JSA (Joint Security Area) est située sur le site de l'ancien village de Panmunjom, unique point de contact direct et de négociations sous égide de l'ONU entre les deux Corées.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "La JSA, c'est Panmunjom, le lieu des négociations entre les deux Corées."
+          },
+          "public_vote": {
+            "votes": [70, 10, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q13_alt",
+        "text": "Quelle frontière maritime rectiligne et contestée sépare les deux Corées en mer Jaune, source d'escarmouches répétées entre les deux marines ?",
+        "answers": ["La ligne Oder-Neisse", "La Northern Limit Line (NLL)", "Le limes maritime", "La ligne de base archipélagique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La Northern Limit Line (NLL) a été tracée unilatéralement par l'ONU en 1953. Elle n'est pas reconnue par la Corée du Nord, provoquant des affrontements réguliers.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "La NLL est une frontière maritime très sensible entre les deux Corées."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q14",
+        "text": "Quel différend géopolitique oppose le Canada et les États-Unis concernant le droit de la mer et le passage des navires dans le grand nord canadien ?",
+        "answers": ["La délimitation de la ZEE de Terre-Neuve", "Le statut juridique du passage du Nord-Ouest", "La souveraineté sur l'archipel des Spratleys", "Le contrôle des câbles sous-marins de l'Atlantique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le Canada considère le passage du Nord-Ouest comme des eaux intérieures souveraines (soumises à son autorisation), tandis que les États-Unis y voient un détroit international libre de circulation.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le passage du Nord-Ouest est un enjeu majeur entre le Canada et les États-Unis."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q14_alt",
+        "text": "Quelle zone maritime contestée d'Asie fait l'objet d'une militarisation agressive par la construction d'îlots artificiels par la Chine sur des récifs (Spratleys, Paracels) ?",
+        "answers": ["La mer Baltique", "La mer des Caraïbes", "La mer de Chine méridionale", "L'océan Arctique"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La mer de Chine méridionale est au cœur de conflits de ZEE et de souveraineté entre la Chine, le Vietnam, les Philippines et la Malaisie, en raison de ses ressources halieutiques et gazières.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, archéologue",
+            "relation": "Collègue",
+            "dialogue": "La mer de Chine méridionale est un point chaud de la géopolitique actuelle."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q15",
+        "text": "Quel commando d'infiltration nord-coréen a réussi à franchir la DMZ fortifiée le 17 janvier 1968, illustrant les limites géopolitiques de l'herméticité physique ?",
+        "answers": ["Le commando du 38e parallèle", "Le commando de la Maison Bleue (ou raid sur Séoul)", "La brigade des infiltrés du fleuve Oyapock", "Le groupe d'assaut de la ligne Oder-Neisse"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Un commando de 31 agents nord-coréens a franchi la DMZ pour tenter d'assassiner le président sud-coréen Park Chung-hee à la Maison Bleue (palais présidentiel) à Séoul.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "Le commando de la Maison Bleue est un événement marquant de la guerre froide."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q15_alt",
+        "text": "À la frontière germano-polonaise post-1945, quelle ville côtière majeure a été attribuée à la Pologne bien que située à l'ouest de l'embouchure de l'Oder, contredisant le tracé 'naturel' ?",
+        "answers": ["Dantzig (Gdańsk)", "Stettin (Szczecin)", "Breslau (Wrocław)", "Görlitz"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "La ville de Stettin (Szczecin) a été attribuée à la Pologne lors de la conférence de Potsdam pour lui garantir un débouché portuaire majeur, bien qu'elle se trouve sur la rive gauche occidentale de l'Oder.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "Stettin, ou Szczecin, est un exemple de tracé frontalier politique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q16",
+        "text": "Quel concept géopolitique désigne une zone frontalière où les influences de deux ou plusieurs États se chevauchent, créant une instabilité ou une compétition ?",
+        "answers": ["Un condominium", "Une marche", "Un glacis", "Une enclave"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Une marche est une zone frontalière historiquement disputée ou sous influence multiple, souvent caractérisée par une identité culturelle hybride et une instabilité politique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "Une marche est une zone frontalière où les influences se mélangent et se confrontent."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q16_alt",
+        "text": "Comment appelle-t-on une portion de territoire d'un État entièrement entourée par le territoire d'un autre État, sans accès direct à son propre pays ?",
+        "answers": ["Une exclave", "Une enclave", "Une zone franche", "Un protectorat"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Une enclave est un territoire ou une partie de territoire d'un État, entièrement entouré par le territoire d'un autre État. Si elle n'a pas d'accès à la mer, elle est aussi une exclave.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "Une enclave est un territoire complètement entouré par un autre pays."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q17",
+        "text": "Quel fleuve sert de frontière naturelle majeure entre la France et l'Allemagne sur une partie de leur tracé ?",
+        "answers": ["La Loire", "Le Rhône", "Le Rhin", "La Seine"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Le Rhin est un fleuve européen qui marque une partie de la frontière entre la France et l'Allemagne, notamment en Alsace.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le Rhin est la frontière naturelle historique entre la France et l'Allemagne."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q17_alt",
+        "text": "Quel massif montagneux forme une frontière naturelle majeure entre la France et l'Espagne ?",
+        "answers": ["Les Alpes", "Les Vosges", "Les Pyrénées", "Le Jura"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Les Pyrénées constituent une barrière naturelle imposante entre la péninsule ibérique et le reste de l'Europe, marquant la frontière franco-espagnole.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, géographe",
+            "relation": "Collègue",
+            "dialogue": "Les Pyrénées sont la frontière naturelle entre la France et l'Espagne."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q18",
+        "text": "Quel traité international de 1985 a instauré la libre circulation des personnes entre plusieurs pays européens, abolissant les contrôles aux frontières intérieures ?",
+        "answers": ["Le traité de Maastricht", "Les accords de Schengen", "Le traité de Rome", "L'Acte Unique Européen"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Les accords de Schengen, signés en 1985 et mis en œuvre progressivement, ont créé un espace de libre circulation sans contrôle aux frontières intérieures pour les citoyens des États membres.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, juriste",
+            "relation": "Amie",
+            "dialogue": "Les accords de Schengen sont la base de la libre circulation en Europe."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q18_alt",
+        "text": "Quel pays, bien que membre de l'Union européenne, ne fait pas partie de l'espace Schengen et maintient ses contrôles aux frontières ?",
+        "answers": ["L'Allemagne", "La Pologne", "L'Irlande", "La Belgique"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "L'Irlande, ainsi que Chypre, ne font pas partie de l'espace Schengen. Le Royaume-Uni en était également exclu avant le Brexit.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "L'Irlande a choisi de ne pas intégrer l'espace Schengen."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q19",
+        "text": "Quel pays d'Amérique du Sud possède la plus longue frontière terrestre du monde avec le Brésil ?",
+        "answers": ["L'Argentine", "La Bolivie", "Le Pérou", "La Guyane française"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La Bolivie partage avec le Brésil une frontière terrestre de plus de 3 400 km, la plus longue d'Amérique du Sud.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "La Bolivie a une très longue frontière avec le Brésil, c'est un fait géographique."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q19_alt",
+        "text": "Quel fleuve forme une partie significative de la frontière entre les États-Unis et le Mexique ?",
+        "answers": ["Le Mississippi", "Le Colorado", "Le Rio Grande", "Le Missouri"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le Rio Grande (ou Río Bravo del Norte) forme une frontière naturelle sur une grande partie de son cours entre le Texas (États-Unis) et le Mexique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, géographe",
+            "relation": "Collègue",
+            "dialogue": "Le Rio Grande est la frontière naturelle entre les États-Unis et le Mexique."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q20",
+        "text": "Quel pays a construit la 'Grande Muraille Verte', un projet visant à lutter contre la désertification en plantant des arbres le long de sa frontière nord ?",
+        "answers": ["L'Inde", "La Chine", "L'Australie", "Le Maroc"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La Grande Muraille Verte est un projet chinois de reforestation massif lancé en 1978 pour stopper l'avancée du désert de Gobi et protéger les terres agricoles.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "La Chine est derrière la Grande Muraille Verte, un projet écologique ambitieux."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q20_alt",
+        "text": "Quel État insulaire d'Asie du Sud-Est est divisé par une frontière contestée avec la Malaisie sur l'île de Bornéo ?",
+        "answers": ["Les Philippines", "L'Indonésie", "Le Brunei", "Singapour"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "L'Indonésie et la Malaisie se partagent l'île de Bornéo, avec des frontières terrestres et maritimes parfois contestées, notamment autour des ressources naturelles.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "L'Indonésie et la Malaisie se partagent Bornéo, avec des frontières complexes."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q21",
+        "text": "Quel pays a construit le 'mur de sable' ou 'mur de la honte' au Sahara occidental, le plus long mur défensif du monde ?",
+        "answers": ["L'Algérie", "Le Maroc", "La Mauritanie", "L'Espagne"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Le mur de sable, construit par le Maroc, s'étend sur plus de 2 700 km et vise à contrôler le territoire du Sahara occidental revendiqué par le Front Polisario.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le mur de sable au Sahara occidental est une construction marocaine."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q21_alt",
+        "text": "Quel État africain est séparé de l'Afrique du Sud par le fleuve Limpopo, une frontière naturelle importante ?",
+        "answers": ["Le Zimbabwe", "Le Botswana", "Le Mozambique", "La Namibie"],
+        "correctIndex": 0,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Le fleuve Limpopo forme une partie de la frontière entre l'Afrique du Sud et le Zimbabwe, ainsi qu'avec le Botswana et le Mozambique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, géographe",
+            "relation": "Collègue",
+            "dialogue": "Le Limpopo est une frontière naturelle majeure entre l'Afrique du Sud et le Zimbabwe."
+          },
+          "public_vote": {
+            "votes": [75, 10, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q22",
+        "text": "Quel concept de frontière est défini par des éléments physiques comme des montagnes ou des fleuves ?",
+        "answers": ["Frontière artificielle", "Frontière naturelle", "Frontière culturelle", "Frontière économique"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Une frontière naturelle est une limite géographique qui correspond à des éléments physiques du paysage, comme une chaîne de montagnes, un fleuve, un désert ou une côte maritime.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, géographe",
+            "relation": "Amie",
+            "dialogue": "Les frontières naturelles sont celles qui suivent des éléments géographiques clairs."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q22_alt",
+        "text": "Quel type de frontière est tracé par l'homme, souvent de manière rectiligne, sans tenir compte des éléments naturels du paysage ?",
+        "answers": ["Frontière naturelle", "Frontière artificielle", "Frontière ethnique", "Frontière linguistique"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Une frontière artificielle est une limite tracée par des décisions humaines, souvent matérialisée par des bornes, des murs ou des lignes droites sur une carte.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "Les frontières artificielles sont celles créées par l'homme, souvent pour des raisons politiques."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q23",
+        "text": "Quel traité de 1648 a mis fin à la Guerre de Trente Ans et est souvent considéré comme le point de départ du système westphalien des États souverains ?",
+        "answers": ["Le traité de Versailles", "Les traités de Westphalie", "Le congrès de Vienne", "Le traité de Tordesillas"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "Les traités de Westphalie (Münster et Osnabrück) ont établi les principes de souveraineté des États et de non-ingérence dans les affaires intérieures, fondant l'ordre international moderne.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Les traités de Westphalie sont fondamentaux pour comprendre la notion de frontière et d'État souverain."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q23_alt",
+        "text": "Quel principe fondamental du système westphalien affirme que chaque État a une autorité exclusive sur son territoire et ses affaires intérieures ?",
+        "answers": ["Le droit d'ingérence", "La souveraineté étatique", "Le multilatéralisme", "L'autodétermination des peuples"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "La souveraineté étatique est le principe central du système westphalien, garantissant l'indépendance et l'autorité exclusive d'un État sur son territoire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "La souveraineté étatique est la pierre angulaire du système westphalien."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q24",
+        "text": "Quelle ligne de démarcation, souvent invisible, sépare les zones de contrôle de l'information et de la censure sur Internet entre différents États ?",
+        "answers": ["La ligne de fracture numérique", "Le cyber-limes", "Le Grand Firewall", "La frontière virtuelle"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Le Grand Firewall de Chine est un système de censure et de surveillance numérique mis en place par le gouvernement chinois pour contrôler l'accès à Internet et filtrer les informations.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, experte numérique",
+            "relation": "Amie",
+            "dialogue": "Le Grand Firewall de Chine est l'exemple le plus connu de frontière numérique de censure."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q24_alt",
+        "text": "Quel terme désigne la frontière imaginaire à 100 kilomètres d'altitude qui est internationalement reconnue comme la limite entre l'atmosphère terrestre et l'espace extra-atmosphérique ?",
+        "answers": ["La stratopause", "La ligne Kármán", "L'exosphère", "La mésopause"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "La ligne Kármán, située à 100 km d'altitude, est la frontière conventionnelle qui sépare l'aéronautique de l'astronautique, marquant le début de l'espace.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, astrophysicien",
+            "relation": "Ancien professeur",
+            "dialogue": "La ligne Kármán est la frontière de l'espace, à 100 km d'altitude."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q25",
+        "text": "Quel détroit stratégique, situé entre l'Iran et Oman, est un point de passage vital pour le transport du pétrole du Golfe Persique ?",
+        "answers": ["Le détroit de Bab-el-Mandeb", "Le détroit d'Ormuz", "Le détroit de Malacca", "Le canal de Suez"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le détroit d'Ormuz est un 'choke point' maritime essentiel par lequel transite une part majeure de la production pétrolière mondiale, le rendant stratégique et sensible aux tensions géopolitiques.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le détroit d'Ormuz est un point de passage crucial pour le pétrole mondial."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q25_alt",
+        "text": "Quel pays a construit le 'mur de Berlin', symbole de la division de l'Europe pendant la Guerre Froide ?",
+        "answers": ["L'URSS", "La République Démocratique Allemande (RDA)", "L'Allemagne de l'Ouest", "Les États-Unis"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le mur de Berlin a été construit par la République Démocratique Allemande (RDA) en 1961 pour empêcher l'exode de ses citoyens vers l'Ouest.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, géographe",
+            "relation": "Collègue",
+            "dialogue": "Le mur de Berlin a été érigé par la RDA, c'est un symbole fort de la Guerre Froide."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q26",
+        "text": "Quel concept décrit la capacité d'un État à contrôler les flux d'informations et de données traversant ses frontières numériques ?",
+        "answers": ["La cyber-souveraineté", "La neutralité du net", "La fracture numérique", "La gouvernance d'Internet"],
+        "correctIndex": 0,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La cyber-souveraineté est la capacité d'un État à exercer son autorité et son contrôle sur le cyberespace relevant de sa juridiction, y compris la régulation des flux transfrontaliers de données.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, experte numérique",
+            "relation": "Amie",
+            "dialogue": "La cyber-souveraineté est un enjeu majeur pour les États à l'ère numérique."
+          },
+          "public_vote": {
+            "votes": [70, 10, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q26_alt",
+        "text": "Quel pays est souvent cité comme l'exemple le plus avancé en matière de contrôle des frontières numériques, avec son 'Grand Firewall' ?",
+        "answers": ["La Russie", "Les États-Unis", "La Chine", "L'Iran"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La Chine est l'exemple le plus connu de pays exerçant un contrôle strict sur ses frontières numériques via le 'Grand Firewall', filtrant l'accès à de nombreux sites et services étrangers.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des Amériques",
+            "relation": "Ancien professeur",
+            "dialogue": "La Chine est le leader incontesté du contrôle des frontières numériques avec son Firewall."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "front_q27",
+        "text": "Quel pays européen a rétabli des contrôles aux frontières intérieures de l'espace Schengen à plusieurs reprises en raison de crises migratoires ou sécuritaires ?",
+        "answers": ["L'Espagne", "La France", "L'Italie", "L'Allemagne"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "La France a rétabli temporairement les contrôles à ses frontières intérieures de l'espace Schengen à plusieurs reprises, notamment après les attentats de 2015 et lors de la crise migratoire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "La France a souvent réintroduit des contrôles aux frontières Schengen pour des raisons de sécurité."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "front_q27_alt",
+        "text": "Quel pays d'Amérique du Nord a une frontière terrestre avec les États-Unis qui est la plus longue du monde entre deux pays non militarisés ?",
+        "answers": ["Le Mexique", "Le Canada", "Cuba", "La Russie (via l'Alaska)"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "La frontière entre le Canada et les États-Unis s'étend sur plus de 8 891 km et est réputée pour être la plus longue frontière terrestre non militarisée du monde.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, géographe",
+            "relation": "Collègue",
+            "dialogue": "La frontière Canada-USA est un exemple unique de longue frontière pacifique."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      }
+    ]
+  }
+}

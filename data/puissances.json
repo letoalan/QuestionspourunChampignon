@@ -1,0 +1,640 @@
+{
+  "version": "1.1",
+  "game": {
+    "title": "HGGSP Spécialité - Les Puissances",
+    "theme": "Analyser les dynamiques des puissances internationales (Première)",
+    "currency": "points",
+    "questions": [
+      {
+        "id": "puis_q1",
+        "text": "Quel théoricien américain des relations internationales a popularisé les concepts de 'hard power' et de 'soft power' dans les années 1990 ?",
+        "answers": ["Samuel Huntington", "Joseph Nye", "Francis Fukuyama", "John Mearsheimer"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Joseph Nye, professeur à Harvard, a défini le hard power (contrainte militaire et économique) et le soft power (capacité d'attraction culturelle et idéologique).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "C'est Joseph Nye qui a développé les concepts de hard et soft power."
+          },
+          "public_vote": {
+            "votes": [10, 75, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q1_alt",
+        "text": "Quel concept, forgé également par Joseph Nye, désigne l'art d'associer habilement les stratégies de puissance dure (hard) et douce (soft) ?",
+        "answers": ["Le sharp power", "Le smart power", "La diplomatie de réseau", "La puissance feutrée"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Le 'smart power' (puissance intelligente) consiste en la capacité d'un État à combiner force de coercition et séduction culturelle ou diplomatique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "Le smart power est la combinaison des deux, hard et soft."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q2",
+        "text": "Quel empire historique d'Asie et d'Europe a exercé une hégémonie majeure sur le bassin méditerranéen du XIVe au début du XXe siècle ?",
+        "answers": ["L'Empire romain", "L'Empire ottoman", "L'Empire russe", "L'Empire moghol"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "L'Empire ottoman, fondé à la fin du XIIIe siècle, a dominé de vastes territoires à cheval sur trois continents avant son démantèlement après la Première Guerre mondiale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "L'Empire ottoman a dominé le bassin méditerranéen pendant des siècles."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q2_alt",
+        "text": "Quel surnom péjoratif les chancelleries européennes donnaient-elles à l'Empire ottoman lors de son déclin au XIXe siècle ?",
+        "answers": ["Le géant de paille", "L'homme malade de l'Europe", "Le dragon endormi", "Le lion blessé"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "L'expression 'l'homme malade de l'Europe' (notamment popularisée par le tsar Nicolas Ier de Russie) décrivait un empire en décomposition territoriale.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "L'homme malade de l'Europe, c'est le surnom de l'Empire ottoman en déclin."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q3",
+        "text": "Quel État souverain s'est substitué sur la scène internationale à l'Union Soviétique (URSS) après son éclatement à la fin de l'année 1991 ?",
+        "answers": ["L'Ukraine", "La Fédération de Russie", "La Biélorussie", "Le Kazakhstan"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "La Fédération de Russie a succédé constitutionnellement à l'URSS à la suite de la démission de Mikhaïl Gorbatchev le 25 décembre 1991.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "La Fédération de Russie a pris la suite de l'URSS sur la scène internationale."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q3_alt",
+        "text": "Quel président de la Fédération de Russie a mené dans les années 1990 une libéralisation économique radicale surnommée 'thérapie de choc' ?",
+        "answers": ["Mikhaïl Gorbatchev", "Boris Eltsine", "Vladimir Poutine", "Dmitri Medvedev"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "Boris Eltsine (président de 1991 à 1999) a engagé des réformes néolibérales rapides qui ont provoqué une crise économique et sociale majeure en Russie.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "Boris Eltsine a mené la thérapie de choc en Russie après la chute de l'URSS."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q4",
+        "text": "Quel acronyme désigne les cinq géants du numérique américains de la Silicon Valley, marqueurs du soft power des États-Unis ?",
+        "answers": ["BATX", "GAFAM", "BRICS", "NATO"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "Les GAFAM regroupent Google, Apple, Facebook (Meta), Amazon et Microsoft.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "GAFAM, c'est l'acronyme des géants américains du numérique."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q4_alt",
+        "text": "Quel acronyme désigne les géants technologiques chinois (Baidu, Alibaba, Tencent, Xiaomi) qui concurrencent le modèle américain ?",
+        "answers": ["GAFAM", "BATX", "BRICS", "ASEAN"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "Les BATX constituent le pendant technologique chinois des GAFAM américains dans la nouvelle économie numérique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "BATX, c'est l'équivalent chinois des GAFAM."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q5",
+        "text": "Quel président chinois a officiellement lancé en 2013 le méga-projet géopolitique et économique de la 'Belt and Road Initiative' (nouvelles routes de la Soie) ?",
+        "answers": ["Deng Xiaoping", "Hu Jintao", "Xi Jinping", "Mao Zedong"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "Xi Jinping a annoncé les nouvelles routes de la Soie (BRI) en 2013 lors d'un discours à l'université Nazarbaïev au Kazakhstan.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "Xi Jinping est à l'origine de la Belt and Road Initiative."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q5_alt",
+        "text": "Quelle date cible hautement symbolique (centenaire de la République Populaire de Chine) a été fixée pour l'achèvement de l'initiative Ceinture et Route ?",
+        "answers": ["2020", "2030", "2049", "2100"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "L'horizon 2049 correspond au centenaire de la proclamation de la RPC par Mao Zedong (1er octobre 1949), symbole de la renaissance chinoise au sommet.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "2049, c'est la date symbolique pour la Chine et la BRI."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q6",
+        "text": "Quelle institution culturelle, lancée par la Chine en 2004, sert de réseau linguistique mondial pour diffuser son soft power et sa langue ?",
+        "answers": ["L'Alliance Française", "L'Institut Goethe", "L'Institut Confucius", "L'Institut Cervantès"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "La Chine déploie des Instituts Confucius (rattachés au ministère de l'Éducation) pour dispenser des cours de langue et véhiculer sa culture à l'étranger.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "L'Institut Confucius est l'outil de soft power linguistique de la Chine."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q6_alt",
+        "text": "Quel réseau d'enseignement français à l'étranger (AEFE) est l'un des outils de la diplomatie d'influence linguistique et culturelle de la France ?",
+        "answers": ["L'Alliance Française", "L'Agence pour l'enseignement français à l'étranger", "TV5 Monde", "L'Organisation Internationale de la Francophonie"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "L'AEFE structure un réseau unique au monde de lycées et collèges français accueillant élèves nationaux et locaux à travers la planète.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "L'AEFE est un réseau d'écoles françaises à l'étranger, très important pour la diplomatie culturelle."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q7",
+        "text": "Quelle entreprise d'État russe des hydrocarbures est l'instrument majeur de la 'géopolitique des tubes' pour faire pression sur l'Europe ?",
+        "answers": ["Lukoil", "Rosneft", "Gazprom", "Sputnik"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "Le monopole public Gazprom exploite les immenses réserves de gaz russe et sert d'arme géoéconomique d'influence diplomatique pour le Kremlin.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "Gazprom est l'outil de pression énergétique de la Russie sur l'Europe."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q7_alt",
+        "text": "Dans quelle région/État séparatiste du Caucase la Russie de Vladimir Poutine a-t-elle mené une guerre sanglante au début des années 2000 pour préserver son intégrité ?",
+        "answers": ["La Géorgie", "La Tchétchénie", "L'Ukraine", "L'Ossétie"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La Seconde guerre de Tchétchénie (1999-2000/2009) a permis à Vladimir Poutine d'asseoir son autorité et d'écraser l'indépendantisme caucasien.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "La Tchétchénie a été le théâtre de guerres sanglantes pour la Russie."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q8",
+        "text": "Quel État européen a été le premier à nommer officiellement en 2017 un 'Tech Ambassador' (ambassadeur numérique) auprès des géants de la Silicon Valley ?",
+        "answers": ["La France", "Le Danemark", "Le Royaume-Uni", "L'Allemagne"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le Danemark a innové en estimant que le chiffre d'affaires et l'influence des GAFAM imposaient des relations diplomatiques directes, comme avec des États souverains.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le Danemark a été pionnier avec son ambassadeur numérique."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q8_alt",
+        "text": "Quel pays balte a subi en 2007 une cyberattaque massive paralysant ses administrations, illustrant l'émergence de la cyberconflictualité ?",
+        "answers": ["La Lettonie", "La Lituanie", "L'Estonie", "La Pologne"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "À la suite d'un différend mémoriel avec la Russie sur une statue soviétique, l'Estonie, pays très numérisé, a subi des attaques de déni de service (DDoS) inédites.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "L'Estonie a été la cible d'une cyberattaque majeure en 2007."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q9",
+        "text": "Quelle expression géopolitique désigne le réseau de ports et de points d'appui militaires/logistiques construits par la Chine le long de sa route maritime ?",
+        "answers": ["La grande muraille verte", "Le collier de perles", "La ligne de base", "Le glacis stratégique"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "L'expression 'collier de perles' (d'origine américaine) qualifie l'implantation de bases ou concessions portuaires chinoises (Djibouti, Hambantota, Gwadar) dans l'océan Indien.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "Le collier de perles, c'est la stratégie maritime chinoise."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q9_alt",
+        "text": "Dans quel pays d'Afrique de l'Est la Chine a-t-elle implanté sa toute première base militaire permanente à l'étranger en 2017 ?",
+        "answers": ["Le Kenya", "Le Soudan", "Djibouti", "La Tanzanie"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Djibouti accueille des forces militaires de plusieurs puissances (France, États-Unis, Japon) en raison de sa position stratégique au verrou de Bab-el-Mandeb, et désormais la Chine.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "Djibouti est devenu un point stratégique avec la base chinoise."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q10",
+        "text": "Quel port de pêche du Sri Lanka a été concédé à bail à la Chine pour 99 ans en 2017, illustrant la stratégie controversée du 'piège de la dette' ?",
+        "answers": ["Gwadar", "Le Pirée", "Hambantota", "Khorgos"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Incapable de rembourser les prêts octroyés par Pékin pour construire son port en eaux profondes, le Sri Lanka a dû en céder l'usage exclusif à une firme d'État chinoise.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Hambantota, au Sri Lanka, est un exemple du piège de la dette chinois."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q10_alt",
+        "text": "Quel port sec et nœud ferroviaire majeur, situé à la frontière sino-kazakhe, est surnommé la 'première perle' terrestre des nouvelles routes de la Soie ?",
+        "answers": ["Gwadar", "Khorgos", "Le Pirée", "Vladivostok"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Khorgos abrite la plus grande zone économique transfrontalière ferroviaire du monde, permettant le transbordement rapide des trains sino-européens.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Khorgos est un hub ferroviaire essentiel pour les nouvelles routes de la Soie."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q11",
+        "text": "Quel mouvement de réformes administratives et juridiques a été engagé par l'Empire ottoman au XIXe siècle pour tenter d'enrayer son déclin et se moderniser ?",
+        "answers": ["La révolution des Jeunes Turcs", "Les Tanzimat", "L'isegoria", "La Sublime Porte"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Les Tanzimat ('réorganisation' en turc) se sont étendus de 1839 à la Constitution de 1876, introduisant l'égalité des sujets et la modernisation de l'État.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "Les Tanzimat ont été une tentative de modernisation de l'Empire ottoman."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q11_alt",
+        "text": "Quel traité de paix de 1920 a acté le démantèlement complet de l'Empire ottoman vaincu avant le sursaut nationaliste de Mustafa Kemal ?",
+        "answers": ["Le traité de Versailles", "Le traité de Sèvres", "Le traité de Lausanne", "Le congrès de Berlin"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Le traité de Sèvres (10 août 1920), humiliant pour les Turcs, réduisait la Turquie à la seule Anatolie du Nord avant d'être révisé par les armes au traité de Lausanne en 1923.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "Le traité de Sèvres a démantelé l'Empire ottoman après la Première Guerre mondiale."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q12",
+        "text": "Quelle alliance militaire de l'ex-URSS, créée en 1992, permet à la Fédération de Russie de maintenir son hégémonie stratégique sur son 'étranger proche' ?",
+        "answers": ["L'OTAN", "L'OTSC (Organisation du Traité de Sécurité Collective)", "L'OCS", "La CEI"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "L'OTSC rassemble plusieurs anciennes républiques soviétiques (Arménie, Biélorussie, Kazakhstan...) sous parapluie militaire russe avec droit d'ingérence.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "L'OTSC est l'alliance militaire de la Russie avec d'anciennes républiques soviétiques."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q12_alt",
+        "text": "Quelle idéologie géopolitique, réinvestie sous Vladimir Poutine, prône le rôle messianique d'une Russie charnière civilisationnelle entre Europe et Asie ?",
+        "answers": ["Le néo-populisme", "Le néo-eurasisme", "Le national-socialisme", "La théocratie orthodoxe"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Le néo-eurasisme (notamment théorisé par Alexandre Douguine) oppose la Russie, puissance continentale traditionnelle, aux puissances maritimes atlantistes libérales.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "Le néo-eurasisme est une idéologie clé pour comprendre la politique étrangère russe."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q13",
+        "text": "Quelle initiative alternative maritime, portée par l'Inde et le Japon, vise à concurrencer le projet chinois des routes de la Soie en Afrique ?",
+        "answers": ["Le collier de perles", "Le Corridor de croissance Asie-Afrique (ou Route de la liberté)", "La Route polaire de la soie", "L'accord transpacifique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Le Corridor de croissance Asie-Afrique (AAGC) est une initiative indo-japonaise visant à développer les infrastructures maritimes reliant les deux continents.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "Le Corridor de croissance Asie-Afrique est une réponse à la BRI chinoise."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q13_alt",
+        "text": "Quel dilemme maritime et stratégique désigne l'extrême dépendance de la Chine vis-à-vis du détroit de Malacca par lequel transite la majorité de son pétrole ?",
+        "answers": ["Le piège de la dette", "Le dilemme de Malacca", "La Northern Limit Line", "Le limes d'Oyapock"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "La Chine craint qu'en cas de conflit, la marine américaine ne bloque le détroit de Malacca, d'où ses investissements massifs au Pakistan (Gwadar) pour créer un corridor terrestre alternatif.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "Le dilemme de Malacca est une vulnérabilité stratégique pour la Chine."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q14",
+        "text": "Quelle institution des Nations Unies, située sur la presqu'île de Manhattan à New York, bénéficie d'un statut d'extraterritorialité marquant la puissance américaine ?",
+        "answers": ["La Banque Mondiale", "Le siège de l'ONU", "Le MIT", "Le Pentagone"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "Le siège de l'ONU, bien que situé à New York, est une zone internationale extraterritoriale autonome, illustrant la force d'attraction géopolitique des États-Unis post-1945.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, historienne",
+            "relation": "Amie",
+            "dialogue": "Le siège de l'ONU à New York est un symbole de la puissance américaine."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q14_alt",
+        "text": "Au CIO (Comité international olympique), quelle règle linguistique héritée de l'histoire consacre la primauté absolue du français sur l'anglais en cas de litige ?",
+        "answers": ["L'article XI de la déclaration", "L'article 24 de la Charte Olympique", "Le traité de Görlitz", "La clause de Montego Bay"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "En hommage à Pierre de Coubertin, le français reste langue officielle du CIO et son texte fait foi en cas de divergence avec la version anglaise.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, professeur d'histoire",
+            "relation": "Collègue",
+            "dialogue": "L'article 24 de la Charte Olympique assure la primauté du français."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "puis_q15",
+        "text": "Quel diplomate et humaniste de la Renaissance a démontré scientifiquement en 1440 la fausseté de la 'Donation de Constantin' servant d'assise temporelle aux papes ?",
+        "answers": ["Alcuin de York", "Lorenzo Valla", "Théophraste Renaudot", "Jean de la Valette"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Par une analyse philologique rigoureuse, Lorenzo Valla prouve en 1440 que la Donation de Constantin (censée léguer Rome et l'Occident au Pape au IVe siècle) est un faux rédigé au VIIIe siècle.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, politologue",
+            "relation": "Amie",
+            "dialogue": "Lorenzo Valla a prouvé la fausseté de la Donation de Constantin."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "puis_q15_alt",
+        "text": "Quel logiciel malveillant de rançonnage (ransomware) a provoqué en 2017 une cyberattaque mondiale majeure paralysant des hôpitaux britanniques et des ministères ?",
+        "answers": ["Stuxnet", "WannaCry", "Pegasus", "Yahoo Hacker"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "WannaCry a infecté plus de 300 000 ordinateurs dans le monde en mai 2017, chiffrant les données pour exiger une rançon en crypto-monnaie.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, spécialiste des RI",
+            "relation": "Ancien professeur",
+            "dialogue": "WannaCry a été une cyberattaque mondiale majeure en 2017."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      }
+    ]
+  }
+}

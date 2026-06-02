@@ -1,0 +1,640 @@
+{
+  "version": "1.1",
+  "game": {
+    "title": "HGGSP Spécialité - États et Religions",
+    "theme": "Analyser les relations entre États et religions dans le monde contemporain (Terminale)",
+    "currency": "points",
+    "questions": [
+      {
+        "id": "relig_q1",
+        "text": "Quel principe constitutionnel français, défini dans la loi de 1905 et l'article 1er de la Constitution de 1958, organise la séparation de l'État et des Églises ?",
+        "answers": ["Le concordat", "La laïcité", "La théocratie", "Le pluralisme confessionnel"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "La laïcité française, instituée par la loi du 9 décembre 1905, interdit à l'État de reconnaître, salarier ou subventionner aucun culte et garantit la liberté de conscience.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, juriste",
+            "relation": "Amie",
+            "dialogue": "C'est la laïcité, un principe fondamental de la République française."
+          },
+          "public_vote": {
+            "votes": [10, 80, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q1_alt",
+        "text": "Quel régime de relations entre l'État et les religions désigne un accord diplomatique officiel conclu entre le Saint-Siège et un État souverain ?",
+        "answers": ["La laïcité", "Le concordat", "Le gallicanisme", "Le millet"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 100,
+        "explanation": "Un concordat est un traité international réglant les relations entre le Vatican et un État, définissant le statut juridique de l'Église catholique sur ce territoire.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "Un accord entre le Vatican et un État, c'est un concordat."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q2",
+        "text": "Quelle révolution de 1979 a transformé l'Iran en République Islamique gouvernée par le principe chiite de la 'wilayat al-faqih' (gouvernement du juriste) ?",
+        "answers": ["La révolution kémaliste", "La révolution islamique iranienne", "La révolution des Œillets", "La révolution bolivarienne"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "La révolution islamique de 1979 a renversé le Shah d'Iran et établi une théocratie chiite dirigée par l'Ayatollah Khomeini, fondée sur le concept de 'wilayat al-faqih'.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du Moyen-Orient",
+            "relation": "Amie",
+            "dialogue": "C'est la révolution islamique iranienne, un événement majeur de 1979."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q2_alt",
+        "text": "Quel religieux chiite iranien a fondé la République Islamique d'Iran après le renversement du Shah en 1979 ?",
+        "answers": ["Ali Khamenei", "L'Ayatollah Khomeini", "Hassan Rohani", "Mahmoud Ahmadinejad"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 200,
+        "explanation": "L'Ayatollah Ruhollah Khomeini (1902-1989) est le fondateur de la République Islamique et le premier Guide Suprême de la Révolution.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "L'Ayatollah Khomeini est la figure emblématique de la révolution iranienne."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q3",
+        "text": "Dans l'Empire ottoman, comment s'appelait le système de tolérance accordant aux communautés non-musulmanes une large autonomie religieuse et juridique interne ?",
+        "answers": ["La dhimma", "Le système des millets", "La charia", "La fatwa"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "Le système des millets reconnaissait aux communautés non-musulmanes (chrétiens, juifs, arméniens) leur propre tribunal, leur propre chef et une large autonomie civile en échange d'une taxe (jizya).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Le système des millets permettait une certaine autonomie aux non-musulmans dans l'Empire ottoman."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q3_alt",
+        "text": "Quel terme arabe désigne le statut protégé (mais inférieur) accordé aux non-musulmans (chrétiens et juifs) dans les États islamiques classiques ?",
+        "answers": ["L'Oumma", "La Dhimma", "Le Califat", "La Fatwa"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 300,
+        "explanation": "La dhimma est un pacte de protection accordé aux 'gens du Livre' (chrétiens, juifs) sous les empires islamiques, leur garantissant la vie et le culte privé en échange d'une capitation.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "La Dhimma est le statut des non-musulmans protégés dans les États islamiques."
+          },
+          "public_vote": {
+            "votes": [5, 85, 5, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q4",
+        "text": "Quel président turc fondateur de la République moderne (1923) a imposé une séparation radicale entre l'État et la religion islamique (sécularisation) ?",
+        "answers": ["Suleyman le Magnifique", "Recep Tayyip Erdoğan", "Mustafa Kemal Atatürk", "Mahmud II"],
+        "correctIndex": 2,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "Mustafa Kemal Atatürk (1881-1938) a fondé la Turquie laïque en abolissant le Califat (1924), supprimant les tribunaux religieux et adoptant le droit civil suisse.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du Moyen-Orient",
+            "relation": "Amie",
+            "dialogue": "C'est Mustafa Kemal Atatürk, le père de la Turquie moderne et laïque."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q4_alt",
+        "text": "Quel terme désigne l'idéologie kémaliste imposant la sécularisation et la modernisation de la Turquie après 1923 ?",
+        "answers": ["Le wahhabisme", "Le kémalisme (ou laïcité kémaliste)", "Le soufisme", "L'ijtihad"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 500,
+        "explanation": "Le kémalisme est l'idéologie modernisatrice et laïcisante imposée par Atatürk : alphabet latin, droit civil occidental, suppression du voile, interdiction de la polygamie.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "Le kémalisme est l'idéologie de la Turquie moderne, avec une laïcité forte."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q5",
+        "text": "Quel accord de Napoléon Bonaparte avec le Saint-Siège, signé en 1801, a réglementé les relations entre la France et l'Église catholique jusqu'en 1905 ?",
+        "answers": ["L'édit de Nantes", "Le Concordat de 1801", "La paix de Westphalie", "Le traité du Latran"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "Le Concordat de 1801, négocié entre Bonaparte et le Pape Pie VII, reconnaissait la religion catholique comme 'religion de la grande majorité des Français' et organisa la nomination des évêques.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Le Concordat de 1801 a marqué les relations entre l'État français et l'Église catholique pendant un siècle."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q5_alt",
+        "text": "Dans quelles régions françaises (Alsace-Moselle) le Concordat de 1801 est-il toujours en vigueur, conférant un statut particulier aux cultes reconnus ?",
+        "answers": ["Bretagne et Normandie", "Alsace et Moselle", "Pays Basque et Corse", "Nord-Pas-de-Calais"],
+        "correctIndex": 1,
+        "difficulty": 1,
+        "timeLimit": 30,
+        "gain": 1000,
+        "explanation": "Lors de l'annexion de l'Alsace-Lorraine en 1871, ces territoires n'étaient pas français : la loi de 1905 ne s'y applique donc pas et l'État y salarie toujours les ministres des cultes reconnus.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "En Alsace-Moselle, le Concordat est toujours en vigueur, c'est une exception française."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q6",
+        "text": "Quelle encyclique papale de 1891, signée par Léon XIII, constitue le premier texte majeur de la doctrine sociale catholique sur la question ouvrière ?",
+        "answers": ["Humanae Vitae", "Rerum Novarum", "Laudato Si", "Pacem in Terris"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "'Rerum Novarum' (1891) condamne à la fois le capitalisme sauvage et le socialisme athée, affirmant le droit à la propriété privée et les devoirs de justice sociale envers les travailleurs.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du catholicisme",
+            "relation": "Amie",
+            "dialogue": "Rerum Novarum est l'encyclique fondatrice de la doctrine sociale de l'Église."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q6_alt",
+        "text": "Quelle encyclique papale de 2015 du pape François se consacre spécifiquement aux enjeux écologiques et au 'soin de la maison commune' ?",
+        "answers": ["Rerum Novarum", "Laudato Si", "Pacem in Terris", "Populorum Progressio"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 2000,
+        "explanation": "'Laudato Si' (2015) est la première encyclique exclusivement consacrée à la crise écologique, appelant à une conversion écologique et à la solidarité entre nations.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, théologien",
+            "relation": "Collègue",
+            "dialogue": "Laudato Si est l'encyclique du pape François sur l'écologie intégrale."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q7",
+        "text": "Quel conflit armé sectaire a opposé de 1975 à 1990 différentes milices chrétiennes, sunnites, chiites et druzes au Liban, faisant plus de 150 000 morts ?",
+        "answers": ["La guerre Iran-Irak", "La guerre civile libanaise", "La guerre d'Afghanistan", "La guerre du Golfe"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "La guerre civile libanaise (1975-1990) illustre la fragmentation confessionnelle extrême du Liban, au croisement des ingérences palestiniennes, syriennes et israéliennes.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "La guerre civile libanaise a été un conflit très complexe et meurtrier."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q7_alt",
+        "text": "Quel accord de paix signé en 1989 en Arabie Saoudite a mis fin à la guerre civile libanaise en réorganisant le partage du pouvoir entre les communautés ?",
+        "answers": ["Les accords d'Oslo", "L'accord de Taëf", "Le traité de Lausanne", "Les accords de Camp David"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 4000,
+        "explanation": "L'accord de Taëf (Arabie Saoudite, 1989) a rééquilibré la répartition du pouvoir politique entre chrétiens maronites, sunnites et chiites, mettant fin aux combats.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "L'accord de Taëf a été crucial pour la fin de la guerre civile libanaise."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q8",
+        "text": "Quelle organisation islamiste sunnite palestinienne, fondée en 1987 à Gaza, est considérée comme mouvement terroriste par l'Union européenne et les États-Unis ?",
+        "answers": ["Le Fatah", "Le Hezbollah", "Le Hamas", "L'OLP"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le Hamas (Harakat al-Muqawama al-Islamiyya – Mouvement de résistance islamique) a été fondé en 1987 comme branche palestinienne des Frères Musulmans lors de la première Intifada.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du Moyen-Orient",
+            "relation": "Amie",
+            "dialogue": "Le Hamas est une organisation islamiste palestinienne fondée à Gaza."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q8_alt",
+        "text": "Quel mouvement islamiste chiite libanais, fondé en 1982 avec le soutien de l'Iran, constitue à la fois un parti politique et une milice armée ?",
+        "answers": ["Le Hamas", "Les Frères Musulmans", "Le Hezbollah", "Al-Qaïda"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 8000,
+        "explanation": "Le Hezbollah (Parti de Dieu), fondé lors de l'invasion israélienne du Liban, est financé et armé par l'Iran et la Syrie et représenté au Parlement libanais.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "Le Hezbollah est un acteur majeur au Liban, avec une double casquette politique et militaire."
+          },
+          "public_vote": {
+            "votes": [5, 10, 80, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q9",
+        "text": "Quelle organisation jihadiste sunnite radicale, issue d'Al-Qaïda, a proclamé un 'Califat' islamique s'étendant sur l'Irak et la Syrie en juin 2014 ?",
+        "answers": ["Al-Qaïda", "Boko Haram", "Daech (ISIS/EIIL)", "Les Frères Musulmans"],
+        "correctIndex": 2,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Daech (État Islamique en Irak et au Levant, EIIL) a proclamé le Califat le 29 juin 2014 sous la direction d'Abu Bakr al-Baghdadi, s'emparant de Mossoul et de Rakka.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Daech, ou l'État Islamique, a proclamé un califat en 2014."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q9_alt",
+        "text": "Dans quelle ville d'Irak, deuxième du pays, Daech a-t-il proclamé symboliquement le début de son Califat après sa prise en juin 2014 ?",
+        "answers": ["Bagdad", "Mossoul", "Kirkouk", "Falloujah"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 40,
+        "gain": 16000,
+        "explanation": "Le 29 juin 2014, Abu Bakr al-Baghdadi a prononcé depuis la Grande Mosquée al-Nouri de Mossoul le sermon officiel instituant le Califat islamique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "C'est à Mossoul que Daech a proclamé son califat."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q10",
+        "text": "Quel accord négocié en 1929 entre Mussolini et le Saint-Siège a créé l'État de la Cité du Vatican comme État souverain et résolu la 'question romaine' ?",
+        "answers": ["Le Concordat de 1801", "Les accords du Latran", "Le traité de Westphalie", "La paix d'Augsbourg"],
+        "correctIndex": 1,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "Les accords du Latran (11 février 1929) ont constitué le Vatican comme État souverain, indépendant de l'Italie, et ont réglé la 'question romaine' née de l'unification italienne de 1870.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du catholicisme",
+            "relation": "Amie",
+            "dialogue": "Les accords du Latran ont créé l'État du Vatican."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q10_alt",
+        "text": "Quelle est la superficie de l'État de la Cité du Vatican, le plus petit État souverain reconnu du monde ?",
+        "answers": ["0,44 km²", "2,2 km²", "12 km²", "44 km²"],
+        "correctIndex": 0,
+        "difficulty": 2,
+        "timeLimit": 45,
+        "gain": 32000,
+        "explanation": "L'État de la Cité du Vatican couvre environ 0,44 km² (44 hectares), entièrement enclavé dans la ville de Rome, et compte environ 800 résidents permanents.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, théologien",
+            "relation": "Collègue",
+            "dialogue": "Le Vatican est minuscule, 0,44 km²."
+          },
+          "public_vote": {
+            "votes": [80, 5, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q11",
+        "text": "Quel théoricien américain a prédit en 1996 un 'choc des civilisations' structuré autour de grandes sphères culturelles et religieuses comme enjeu central du XXIe siècle ?",
+        "answers": ["Francis Fukuyama", "John Mearsheimer", "Samuel Huntington", "Joseph Nye"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Samuel Huntington, dans 'The Clash of Civilizations and the Remaking of World Order' (1996), identifie huit 'civilisations' (occidentale, islamique, confucéenne…) appelées à s'affronter.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Le choc des civilisations, c'est la thèse de Samuel Huntington."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q11_alt",
+        "text": "Quel universitaire américain a publié en 1992 'La Fin de l'histoire et le Dernier Homme', soutenant la victoire définitive de la démocratie libérale sur ses concurrents idéologiques ?",
+        "answers": ["Samuel Huntington", "Francis Fukuyama", "John Rawls", "Bernard Lewis"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 64000,
+        "explanation": "Francis Fukuyama a publié 'La Fin de l'histoire' en 1992, affirmant que la chute du communisme consacrait la démocratie libérale comme horizon idéologique définitif. Cette thèse a été largement critiquée.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "Francis Fukuyama et la fin de l'histoire, une thèse très débattue."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q12",
+        "text": "Quelle organisation internationale, fondée à Djeddah en 1969, regroupe les États à majorité musulmane et constitue un acteur diplomatique majeur de la solidarité islamique ?",
+        "answers": ["La Ligue Arabe", "L'OCI (Organisation de la Coopération Islamique)", "L'OPEP", "L'Union Africaine"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "L'OCI (Organisation de la Coopération Islamique), fondée en 1969 après l'incendie de la Mosquée Al-Aqsa, est la deuxième plus grande organisation intergouvernementale du monde avec 57 États membres.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du Moyen-Orient",
+            "relation": "Amie",
+            "dialogue": "L'OCI est l'organisation qui regroupe les États musulmans."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q12_alt",
+        "text": "Quel mouvement religieux wahhabite saoudien, né au XVIIIe siècle, constitue l'idéologie officielle d'État de l'Arabie Saoudite et influence certains courants jihadistes ?",
+        "answers": ["Le soufisme", "Le wahhabisme (ou salafisme)", "L'ismaélisme", "Le déobandisme"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 50,
+        "gain": 125000,
+        "explanation": "Le wahhabisme, fondé par Muhammad ibn Abd al-Wahhab au XVIIIe siècle en alliance avec la famille Al Saoud, prône un retour aux sources du premier islam, condamnant toute innovation (bid'a).",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "Le wahhabisme est la doctrine officielle de l'Arabie Saoudite."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q13",
+        "text": "Dans l'Inde contemporaine, quelle idéologie nationaliste hindoue (hindutva) est portée par le mouvement RSS et le parti au pouvoir BJP depuis 2014 ?",
+        "answers": ["Le sécularisme nehruvien", "L'hindutva", "Le gandhisme", "Le sikhisme politique"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "L'hindutva ('hindouité') est une idéologie nationaliste définissant l'identité indienne par la religion hindoue, remettant en cause le modèle laïc hérité de Nehru.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "L'hindutva est l'idéologie nationaliste hindoue portée par le BJP en Inde."
+          },
+          "public_vote": {
+            "votes": [10, 70, 10, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q13_alt",
+        "text": "Quel Premier Ministre indien, leader du BJP, a été réélu en 2019 et incarne la montée de l'hindunationalisme en Inde ?",
+        "answers": ["Manmohan Singh", "Narendra Modi", "Rahul Gandhi", "Atal Bihari Vajpayee"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 250000,
+        "explanation": "Narendra Modi, Premier Ministre depuis 2014, est issu des rangs du RSS et du BJP. Son gouvernement a notamment adopté des lois controversées sur la citoyenneté (CAA, 2019) excluant les musulmans.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "Narendra Modi est la figure de proue de l'hindunationalisme en Inde."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q14",
+        "text": "Quel pays démographiquement le plus peuplé du monde possède le plus grand nombre de musulmans, dépassant celui des pays arabes réunis ?",
+        "answers": ["Le Pakistan", "L'Inde", "L'Indonésie", "Le Bangladesh"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "L'Indonésie est le pays comptant la plus grande population musulmane du monde (environ 240 millions), très supérieure à celle de tout pays arabe, et son islam est historiquement modéré et syncrétique.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Léa, spécialiste du Moyen-Orient",
+            "relation": "Amie",
+            "dialogue": "L'Indonésie a la plus grande population musulmane du monde, c'est souvent méconnu."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q14_alt",
+        "text": "Quel compromis constitutionnel fondateur de l'État d'Indonésie en 1945 (Pancasila) évite d'ériger l'islam en religion d'État malgré la majorité écrasante des musulmans ?",
+        "answers": ["La laïcité kémaliste", "La Pancasila (croyance en un Dieu unique sans religion d'État)", "La charia nationale", "Le concordat de Batavia"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 500000,
+        "explanation": "La Pancasila ('cinq principes') inclut la croyance en un Dieu Unique sans désigner de religion officielle, permettant la coexistence de l'islam, du christianisme, de l'hindouisme, du bouddhisme et du confucianisme.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Pierre, politologue",
+            "relation": "Collègue",
+            "dialogue": "La Pancasila est le fondement de la diversité religieuse en Indonésie."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      },
+      {
+        "id": "relig_q15",
+        "text": "Quelle conférence œcuménique de l'Église catholique (1962-1965), convoquée par Jean XXIII, a opéré une révision profonde des relations avec les autres religions et avec la modernité ?",
+        "answers": ["Le concile de Trente", "Le concile de Nicée", "Le concile Vatican II", "Le Synode de Pistoie"],
+        "correctIndex": 2,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "Vatican II (1962-1965) a produit des textes fondateurs comme 'Nostra Aetate' reconnaissant la valeur des autres religions, et 'Dignitatis Humanae' sur la liberté religieuse.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Sophie, historienne",
+            "relation": "Amie d'enfance",
+            "dialogue": "Vatican II a été un tournant majeur pour l'Église catholique et ses relations avec le monde."
+          },
+          "public_vote": {
+            "votes": [10, 10, 70, 10]
+          }
+        }
+      },
+      {
+        "id": "relig_q15_alt",
+        "text": "Quelle déclaration issue du concile Vatican II (1965) reconnaît officiellement la valeur des grandes religions non-chrétiennes et condamne l'antisémitisme ?",
+        "answers": ["Lumen Gentium", "Nostra Aetate", "Gaudium et Spes", "Dignitatis Humanae"],
+        "correctIndex": 1,
+        "difficulty": 3,
+        "timeLimit": 60,
+        "gain": 1000000,
+        "explanation": "'Nostra Aetate' (28 octobre 1965) représente un tournant historique dans les relations de l'Église catholique avec le judaïsme, l'islam, le bouddhisme et l'hindouisme.",
+        "lifelinesAllowed": ["50_50", "phone_friend", "public_vote", "switch"],
+        "jokerData": {
+          "phone_friend": {
+            "friendName": "Marc, historien des religions",
+            "relation": "Ancien professeur",
+            "dialogue": "Nostra Aetate est une déclaration très importante de Vatican II."
+          },
+          "public_vote": {
+            "votes": [5, 80, 10, 5]
+          }
+        }
+      }
+    ]
+  }
+}
