@@ -352,6 +352,7 @@ body {
   gap: 2rem;
   flex: 1;
   align-items: stretch;
+  position: relative;
 }
 
 /* Zone gauche (Plateau TV principal) */
@@ -360,6 +361,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
+  width: 100%;
 }
 
 /* Barre de statut du plateau */
@@ -491,6 +493,7 @@ body {
   box-shadow: var(--shadow-neon);
 }
 
+/* Décorations typiques du plateau (les petites barres latérales) */
 .question-card::before, .question-card::after {
   content: '';
   position: absolute;
@@ -516,11 +519,11 @@ body {
   margin-right: 0.5rem;
 }
 
-/* Grille de Réponses (2x2) */
+/* Grille de Réponses (2x2) - ZONES D'APPUI PLUS LARGE */
 .answers-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem 2rem;
+  gap: 1.5rem 2.5rem;
   position: relative;
 }
 
@@ -530,20 +533,20 @@ body {
   backdrop-filter: blur(12px);
   border: 1px solid var(--border-cyan);
   border-radius: 50px;
-  padding: 1.1rem 2rem;
+  padding: 1.4rem 2.5rem;
   text-align: left;
   cursor: pointer;
   color: var(--text-main);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 500;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
   position: relative;
   overflow: hidden;
   transition: var(--transition-smooth);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  min-height: 60px;
+  min-height: 75px;
 }
 
 .answer-btn::before {
@@ -561,12 +564,12 @@ body {
   font-family: 'Orbitron', sans-serif;
   color: var(--gold-accent);
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   background: rgba(255, 215, 0, 0.1);
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
   border: 1px solid rgba(255, 215, 0, 0.2);
-  min-width: 36px;
+  min-width: 42px;
   text-align: center;
 }
 
@@ -576,8 +579,9 @@ body {
 
 /* --- ÉTATS DES BOUTONS DE RÉPONSE --- */
 
+/* Hover */
 .answer-btn:hover:not(.disabled) {
-  transform: scale(1.02);
+  transform: scale(1.03);
   border-color: var(--gold-accent);
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
 }
@@ -591,6 +595,7 @@ body {
   background: var(--gold-accent);
 }
 
+/* Sélectionné (Orange pulsant) */
 .answer-btn.selected {
   border-color: #ff9f43;
   background: rgba(255, 159, 67, 0.15);
@@ -608,6 +613,7 @@ body {
   background: #ff9f43;
 }
 
+/* Correct (Vert scintillant) */
 .answer-btn.correct {
   border-color: var(--success);
   background: rgba(46, 204, 113, 0.25) !important;
@@ -626,6 +632,7 @@ body {
   background: var(--success);
 }
 
+/* Incorrect (Rouge) */
 .answer-btn.incorrect {
   border-color: var(--error);
   background: rgba(231, 76, 60, 0.25);
@@ -643,6 +650,7 @@ body {
   background: var(--error);
 }
 
+/* Joker 50/50 : Cache les boutons */
 .answer-btn.hidden-ans {
   opacity: 0;
   pointer-events: none;
@@ -659,7 +667,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .lifelines-wrapper {
@@ -726,7 +734,260 @@ body {
   right: -2px;
 }
 
-/* --- ZONE DROITE (ÉCHELLE DES GAINS) --- */
+/* ==========================================================================
+   TIROIR LATÉRAL DES GAINS (SLIDE-OUT DRAWER)
+   ========================================================================== */
+
+/* Bouton d'ouverture du tiroir */
+.ladder-toggle-btn {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 120px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-gold);
+  border-radius: 12px 0 0 12px;
+  cursor: pointer;
+  z-index: 150;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.ladder-toggle-btn:hover {
+  width: 60px;
+  border-color: var(--gold-accent);
+  box-shadow: -4px 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.ladder-toggle-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.ladder-toggle-icon::before,
+.ladder-toggle-icon::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background: var(--gold-accent);
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+  transition: var(--transition-smooth);
+}
+
+.ladder-toggle-icon::before {
+  width: 20px;
+}
+
+.ladder-toggle-icon::after {
+  width: 14px;
+}
+
+.ladder-toggle-btn:hover .ladder-toggle-icon::before {
+  width: 24px;
+}
+
+.ladder-toggle-btn:hover .ladder-toggle-icon::after {
+  width: 18px;
+}
+
+.ladder-toggle-label {
+  font-size: 0.65rem;
+  color: var(--gold-accent);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Tiroir latéral coulissant */
+.ladder-drawer {
+  position: fixed;
+  top: 0;
+  right: -340px;
+  width: 320px;
+  height: 100vh;
+  background: var(--bg-medium);
+  backdrop-filter: blur(20px);
+  border-left: 1px solid var(--border-gold);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.ladder-drawer.open {
+  right: 0;
+}
+
+.ladder-drawer-header {
+  padding: 1.5rem;
+  background: rgba(3, 7, 18, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ladder-drawer-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-accent);
+  text-transform: uppercase;
+}
+
+.ladder-drawer-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: var(--transition-smooth);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.ladder-drawer-close:hover {
+  color: var(--error);
+  background: rgba(231, 76, 60, 0.1);
+  transform: rotate(90deg);
+}
+
+.ladder-drawer-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+/* Overlay sombre quand tiroir ouvert */
+.drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 7, 18, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 199;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.drawer-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Échelle des gains dans le tiroir */
+#ladder-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.ladder-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: var(--transition-smooth);
+  white-space: nowrap;
+}
+
+.ladder-num {
+  width: 30px;
+  color: #ff9f43;
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.ladder-accent {
+  margin: 0 0.5rem;
+  font-size: 0.75rem;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.ladder-val {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Paliers de sécurité */
+.ladder-item.checkpoint {
+  color: #ffd27d;
+  font-weight: 700;
+  background: rgba(255, 210, 125, 0.05);
+  border-left: 3px solid #ffd27d;
+  padding-left: 1.2rem;
+}
+
+.lock-icon {
+  font-size: 0.8rem;
+  color: #ffd27d;
+  background: rgba(255, 210, 125, 0.15);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* Palier actif */
+.ladder-item.active {
+  background: linear-gradient(90deg, rgba(255, 215, 0, 0.3) 0%, transparent 100%);
+  color: #fff;
+  font-weight: 900;
+  border: 1px solid var(--gold-accent);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.ladder-item.active .ladder-num {
+  color: #fff;
+}
+
+/* Palier complété */
+.ladder-item.completed {
+  color: var(--success);
+  opacity: 0.9;
+}
+
+.ladder-item.completed .ladder-accent {
+  color: var(--success);
+}
+
+/* Barre de progression visuelle */
+.ladder-progress-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  background: linear-gradient(to top, var(--gold-accent), var(--primary-glow));
+  border-radius: 0 4px 4px 0;
+  transition: height 0.5s ease;
+}
+
+/* --- ZONE DROITE (ÉCHELLE DES GAINS - Ancienne version pour référence) --- */
 
 .ladder-area {
   background: var(--bg-glass);
@@ -755,83 +1016,9 @@ body {
   text-transform: uppercase;
 }
 
-#ladder-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
+.ladder-area #ladder-list {
   max-height: 60vh;
   overflow-y: auto;
-}
-
-.ladder-item {
-  display: flex;
-  align-items: center;
-  padding: 0.35rem 0.8rem;
-  border-radius: 4px;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  transition: var(--transition-smooth);
-  white-space: nowrap;
-}
-
-.ladder-num {
-  width: 25px;
-  color: #ff9f43;
-  flex-shrink: 0;
-}
-
-.ladder-accent {
-  margin: 0 0.5rem;
-  font-size: 0.7rem;
-  opacity: 0.5;
-  flex-shrink: 0;
-}
-
-.ladder-val {
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.ladder-item.checkpoint {
-  color: #ffd27d;
-  font-weight: 700;
-  background: rgba(255, 210, 125, 0.03);
-  border-left: 2px solid #ffd27d;
-}
-
-.lock-icon {
-  font-size: 0.7rem;
-  color: #ffd27d;
-  background: rgba(255, 210, 125, 0.15);
-  padding: 0.1rem 0.3rem;
-  border-radius: 3px;
-  flex-shrink: 0;
-}
-
-.ladder-item.active {
-  background: linear-gradient(90deg, rgba(255, 215, 0, 0.25) 0%, transparent 100%);
-  color: #fff;
-  font-weight: 900;
-  border: 1px solid var(--gold-accent);
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
-  transform: translateX(-5px);
-}
-
-.ladder-item.active .ladder-num {
-  color: #fff;
-}
-
-.ladder-item.completed {
-  color: var(--success);
-  opacity: 0.8;
-}
-
-.ladder-item.completed .ladder-accent {
-  color: var(--success);
 }
 
 /* --- ÉCRAN 3 : RÉSULTATS / FIN DE JEU --- */
@@ -1211,6 +1398,7 @@ body {
   20%, 40%, 60%, 80% { transform: translateX(8px); }
 }
 
+/* Animations de changement de question */
 .slide-out {
   animation: slideOutLeft 0.5s ease-in-out forwards;
 }
@@ -1240,6 +1428,7 @@ body {
   }
 }
 
+/* Chat bubble entries */
 .animate-chat {
   animation: bubblePop 0.3s ease-out forwards;
 }
@@ -1259,6 +1448,7 @@ body {
   to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
+/* Effet néon clignotant léger */
 .pulse-light {
   box-shadow: 0 0 35px var(--primary-glow) !important;
   border-color: #ffd700 !important;
@@ -1282,12 +1472,17 @@ body {
   }
   
   .answers-grid {
-    grid-template-columns: 1fr;
-    gap: 0.8rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+  }
+  
+  .answer-btn {
+    padding: 1.2rem 2rem;
+    min-height: 70px;
   }
   
   .question-card {
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem 2rem;
     border-radius: 30px;
   }
   
@@ -1328,6 +1523,18 @@ body {
   
   .volume-slider {
     width: 50px;
+  }
+  
+  /* Tiroir ajusté pour petit écran */
+  .ladder-toggle-btn {
+    width: 45px;
+    height: 100px;
+    right: 15px;
+  }
+  
+  .ladder-drawer {
+    width: 280px;
+    right: -290px;
   }
   
   /* Écran accueil */
@@ -1557,6 +1764,16 @@ body {
    ========================================================================== */
 
 @media (max-width: 768px) and (orientation: landscape) {
+  /* Cacher le tiroir sur smartphone landscape, utiliser version compacte */
+  .ladder-toggle-btn,
+  .ladder-drawer {
+    display: none;
+  }
+  
+  .ladder-area {
+    display: none;
+  }
+  
   /* Header compact */
   .app-header {
     padding: 0.8rem 1rem;
