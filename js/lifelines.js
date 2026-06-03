@@ -104,6 +104,9 @@ class PhoneFriendLifeline extends BaseLifeline {
     const question = gameState.currentQuestion;
     const correctIdx = question.correctIndex;
     const difficulty = Number(question.difficulty);
+    // Indices encore visibles (non éliminés par le 50/50)
+    const eliminated = gameState.eliminatedIndices || [];
+    const visibleIndices = [0, 1, 2, 3].filter(idx => !eliminated.includes(idx));
 
     // Choisir un ami au hasard
     const friend = this.friendsList[Math.floor(Math.random() * this.friendsList.length)];
@@ -114,22 +117,30 @@ class PhoneFriendLifeline extends BaseLifeline {
     
     let suggestedIdx = correctIdx;
     if (!isCorrect) {
-      // Si l'ami se trompe, il choisit un index incorrect au hasard
-      const incorrects = [0, 1, 2, 3].filter(idx => idx !== correctIdx);
-      suggestedIdx = incorrects[Math.floor(Math.random() * incorrects.length)];
+      // Si l'ami se trompe, il choisit parmi les indices incorrects ENCORE VISIBLES
+      const incorrectsVisible = visibleIndices.filter(idx => idx !== correctIdx);
+      if (incorrectsVisible.length > 0) {
+        suggestedIdx = incorrectsVisible[Math.floor(Math.random() * incorrectsVisible.length)];
+      } else {
+        // Repli : si toutes les mauvaises sont éliminées, il donne la bonne
+        suggestedIdx = correctIdx;
+      }
     }
 
     const answerLetter = String.fromCharCode(65 + suggestedIdx); // 'A', 'B', 'C', ou 'D'
     const answerText = question.answers[suggestedIdx];
 
+    // Indication au joueur que le 50/50 a été utilisé avant
+    const prefix50 = eliminated.length > 0 ? "Avec les deux réponses éliminées, " : "";
+
     // Génération du script de dialogue dynamique
     let dialogue = "";
     if (difficulty === 1) {
-      dialogue = `"Allô ? Ah, salut ! Oui, je connais super bien ce sujet. C'est facile, c'est sans aucun doute la réponse **${answerLetter} : ${answerText}**. Tu peux y aller les yeux fermés !"`;
+      dialogue = `"Allô ? Ah, salut ! ${prefix50}c'est facile, c'est sans aucun doute la réponse **${answerLetter} : ${answerText}**. Tu peux y aller les yeux fermés !"`;
     } else if (difficulty === 2) {
-      dialogue = `"Allô ! Ouh là, le chrono tourne déjà ? Bon, laisse-moi réfléchir... Je crois que c'est la **${answerLetter} : ${answerText}**. Je dirais que j'en suis sûr à environ ${confidenceRating}%. C'est mon dernier mot !"`;
+      dialogue = `"Allô ! Ouh là, le chrono tourne déjà ? ${prefix50}je crois que c'est la **${answerLetter} : ${answerText}**. Je dirais que j'en suis sûr à environ ${confidenceRating}%. C'est mon dernier mot !"`;
     } else {
-      dialogue = `"Allô ? Ah mince, c'est une question très difficile... Attends... Hmm, j'hésite énormément. Je pencherais peut-être pour la **${answerLetter} : ${answerText}**, mais c'est vraiment une supposition. Je ne suis sûr qu'à ${confidenceRating}%. Prends mon avis avec précaution !"`;
+      dialogue = `"Allô ? Ah mince, c'est une question très difficile... ${prefix50}j'hésite énormément. Je pencherais peut-être pour la **${answerLetter} : ${answerText}**, mais je ne suis sûr qu'à ${confidenceRating}%. Prends mon avis avec précaution !"`;
     }
 
     return {
@@ -137,7 +148,8 @@ class PhoneFriendLifeline extends BaseLifeline {
       friendName: friend.name,
       relation: friend.relation,
       dialogue: dialogue,
-      suggestedIndex: suggestedIdx
+      suggestedIndex: suggestedIdx,
+      eliminatedIndices: eliminated
     };
   }
 }
@@ -156,43 +168,55 @@ class PublicVoteLifeline extends BaseLifeline {
     const question = gameState.currentQuestion;
     const correctIdx = question.correctIndex;
     const difficulty = Number(question.difficulty);
+    // Indices encore visibles (non éliminés par le 50/50)
+    const eliminated = gameState.eliminatedIndices || [];
+    const visibleIndices = [0, 1, 2, 3].filter(idx => !eliminated.includes(idx));
 
     // Ajuste la pertinence de l'avis du public en fonction de la difficulté
     let correctWeight = 0.7; // Facile (70% des votes sur la bonne réponse)
     if (difficulty === 2) {
       correctWeight = 0.5;   // Moyen (50% de votes)
     } else if (difficulty === 3) {
-      correctWeight = 0.32;  // Difficile (le public est divisé ou indécis, ~32%)
+      correctWeight = 0.32;  // Difficile (~32%)
     }
 
     const votes = [0, 0, 0, 0];
+
+    // Les réponses éliminées par le 50/50 obtiennent 0% du public
+    // On ne distribue les votes que sur les réponses VISIBLES
+    const visibleBadIndices = visibleIndices.filter(idx => idx !== correctIdx);
     let remaining = 100;
 
-    // Assigner la part de la bonne réponse
+    // Assigner la part de la bonne réponse (seulement si elle est visible)
     const correctPercent = Math.floor(correctWeight * 100 + (Math.random() * 10 - 5));
     votes[correctIdx] = correctPercent;
     remaining -= correctPercent;
 
-    // Distribuer le reste sur les 3 mauvaises réponses de façon aléatoire
-    const badIndices = [0, 1, 2, 3].filter(idx => idx !== correctIdx);
-    
-    // Premier faux
-    const firstBad = Math.floor(Math.random() * (remaining - 10));
-    votes[badIndices[0]] = firstBad;
-    remaining -= firstBad;
+    // Distribuer le reste uniquement sur les mauvaises réponses VISIBLES
+    if (visibleBadIndices.length >= 1) {
+      if (visibleBadIndices.length === 1) {
+        // Un seul mauvais restant : il prend tout le reste
+        votes[visibleBadIndices[0]] = remaining;
+      } else if (visibleBadIndices.length === 2) {
+        const firstBad = Math.floor(Math.random() * (remaining - 5));
+        votes[visibleBadIndices[0]] = firstBad;
+        votes[visibleBadIndices[1]] = remaining - firstBad;
+      } else {
+        // 3 mauvaises réponses visibles (pas de 50/50 avant)
+        const firstBad = Math.floor(Math.random() * (remaining - 10));
+        votes[visibleBadIndices[0]] = firstBad;
+        remaining -= firstBad;
+        const secondBad = Math.floor(Math.random() * remaining);
+        votes[visibleBadIndices[1]] = secondBad;
+        votes[visibleBadIndices[2]] = remaining - secondBad;
+      }
+    }
 
-    // Deuxième faux
-    const secondBad = Math.floor(Math.random() * remaining);
-    votes[badIndices[1]] = secondBad;
-    remaining -= secondBad;
-
-    // Troisième faux prend tout le reste restant
-    votes[badIndices[2]] = remaining;
-
-    // Retourne le tableau des pourcentages des votes (ex: [10, 65, 15, 10])
+    // Retourne le tableau des pourcentages + les indices éliminés pour l'UI
     return {
       type: 'public_vote',
-      votes: votes
+      votes: votes,
+      eliminatedIndices: eliminated
     };
   }
 }

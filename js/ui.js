@@ -539,15 +539,19 @@ export class UIManager {
   showPublicVoteModal(data) {
     this.modalJokerTitle.innerText = "📊 AVIS DU PUBLIC";
     
+    // Récupérer les indices éliminés (par exemple du 50/50 précédent)
+    const eliminated = data.eliminatedIndices || [];
+
     // Génère des barres animées élégantes
     let barsHtml = '<div class="public-chart">';
     data.votes.forEach((percent, idx) => {
       const letter = String.fromCharCode(65 + idx);
+      const isEliminated = eliminated.includes(idx);
       barsHtml += `
-        <div class="chart-col">
+        <div class="chart-col ${isEliminated ? 'hidden-ans' : ''}">
           <div class="chart-bar-container">
-            <div class="chart-bar" style="height: 0%" data-percent="${percent}">
-              <span class="bar-value">${percent}%</span>
+            <div class="chart-bar" style="height: 0%" data-percent="${isEliminated ? 0 : percent}">
+              <span class="bar-value">${isEliminated ? '0' : percent}%</span>
             </div>
           </div>
           <span class="chart-label">Rép. ${letter}</span>
@@ -555,6 +559,9 @@ export class UIManager {
       `;
     });
     barsHtml += '</div>';
+
+    // Correction cruciale : assigner le contenu HTML à la modale
+    this.modalJokerContent.innerHTML = barsHtml;
 
     this.openJokerModal();
 

@@ -33,6 +33,7 @@ export class GameEngine {
     this.usedQuestionIds = new Set();
     this.accumulatedGain = 0;
     this.isLifelineActiveMap = {}; // Enregistre l'usage des jokers
+    this.eliminatedIndices = []; // Indices des réponses éliminées par le joker 50/50
 
     // Système d'écouteurs d'événements (Event Emitter simple)
     this.listeners = {};
@@ -148,6 +149,7 @@ export class GameEngine {
     const question = unused[Math.floor(Math.random() * unused.length)];
     this.currentQuestion = question;
     this.usedQuestionIds.add(question.id);
+    this.eliminatedIndices = []; // Réinitialiser pour la nouvelle question
     
     this.state = GameStates.QUESTION_ACTIVE;
     this.emit('question_ready', {
@@ -264,8 +266,14 @@ export class GameEngine {
     const result = joker.use({
       currentQuestion: this.currentQuestion,
       questionBank: this.questionBank,
-      usedQuestionIds: this.usedQuestionIds
+      usedQuestionIds: this.usedQuestionIds,
+      eliminatedIndices: this.eliminatedIndices // Indices déjà retirés par le 50/50
     });
+
+    // Mémoriser les indices éliminés si c'est un joker 50/50
+    if (lifelineId === '50_50' && result.removedIndices) {
+      this.eliminatedIndices = result.removedIndices;
+    }
 
     // Si c'est un joker SWITCH (changement de question) : on doit mettre à jour la question courante
     if (lifelineId === 'switch' && result.newQuestion) {

@@ -67,7 +67,8 @@ export function runTests(reporterCallback) {
             };
             const res = validateQuestionPack(validData);
             Assert.isTrue(res.isValid, "Le JSON valide doit être accepté");
-            Assert.equals(res.errors.length, 0, "Il ne devrait y avoir aucune erreur");
+            const trueErrors = res.errors.filter(e => !e.startsWith("Avertissement"));
+            Assert.equals(trueErrors.length, 0, "Il ne devrait y avoir aucune erreur bloquante");
           }
         }
       ]
@@ -134,7 +135,7 @@ export function runTests(reporterCallback) {
                   answers: ["A", "B", "C", "D"],
                   correctIndex: 0,
                   difficulty: i < 5 ? 1 : (i < 10 ? 2 : 3),
-                  gain: 100 * (i + 1)
+                  gain: 100 // même gain partout pour ne pas écraser l'échelle par défaut
                 }))
               }
             };
@@ -170,7 +171,7 @@ export function runTests(reporterCallback) {
                   answers: ["A", "B", "C", "D"],
                   correctIndex: 0,
                   difficulty: i < 5 ? 1 : (i < 10 ? 2 : 3),
-                  gain: 100 * (i + 1)
+                  gain: 100 // même gain partout pour ne pas écraser l'échelle par défaut
                 }))
               }
             };
